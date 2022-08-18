@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Publications"
-permalink: /projects/
+permalink: /publications/
 ---
 
 list of projects using cosmogrid
