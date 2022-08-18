@@ -37,10 +37,10 @@ The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells w
 
 | file name                             | file content  | comments      |
 | -------------                         | ------------- | ------------- |
-|cosmology/compressed_shells.npz        | | |
-|cosmology/params.yml                   | | |
-|cosmology/pkd_halos.tar.gz             | | |
-|cosmology/Halofile_MinParts=100.npz    | | |
+|realiztation/compressed_shells.npz     | raw shells at nside=2048 | numpy compressed store with two members: <br /> **"shells"**: contains the 69 shells, <br /> **"shell_info"**: table with information about shell boundaries (redshift, comoving distance in Mpc/h)|
+|cosmology/params.yml                   | yaml file with cosmology parameters, baryonification parameters, random seeds | baryonification parameters are only used for the exended grid  |
+|cosmology/pkd_halos.tar.gz             | compressed PkdGrav3 halo shapshots for each timestep | the compressed store contains files like pkd_halos/CosmoML.XXXXX.fofstats.0, which are the raw PkdGrav3 halo output from the friends-of-friends algorithm, XXXXX is the time step|
+|cosmology/Halofile_MinParts=100.npz    | profiled halos with minimum of 100 particles, from the F22 analysis| |
 |cosmology/param_files.tar.gz           | | |
 |cosmology/shells_nside=512.npz         | | |
 |cosmology/baryonified_shells.npz       | | |
