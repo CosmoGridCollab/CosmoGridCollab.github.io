@@ -1,4 +1,4 @@
-## CosmoGrid public release website
+### CosmoGrid public release website
 
 CosmoGrid is large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
 It is designed to for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
@@ -17,11 +17,12 @@ The data is hosted by ETH Zurich and is available via the Globus transfer. For e
 - projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022,
 
 ## Example shell map images
-The example shell maps for different cosmological models are on shown below.
+The example shell maps for different cosmological models are on shown below. 
+The provided maps are full sky at Healpix resolution of nside=2048.
 
 <img src="/figures/cosmogrid_shells_shade.png" width="600" />
 
-## Citing CosmoGrid
+### Citing CosmoGrid
 
 If you use this dataset for any publication, please cite the following papers:
 
