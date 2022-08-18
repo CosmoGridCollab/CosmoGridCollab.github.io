@@ -1,7 +1,5 @@
 ### CosmoGrid public release website
 
-{:toc}
-
 CosmoGrid is large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
 It is designed to for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
 The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
