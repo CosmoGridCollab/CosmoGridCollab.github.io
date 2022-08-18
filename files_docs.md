@@ -33,18 +33,18 @@ where:
 
 # Raw lightcone shells
 
-The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells with nside=2048, snapshot halo catalogs, full sky shells at nside=512 with and without baryonification. They were created during the Fluri et al. 2022 (F22) project for the KiDS-1000 analysis, but can be used for other new projects.
+The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells with nside=2048, snapshot halo catalogs, full sky shells at nside=512 with and without baryonification. They were created during the Fluri et al. 2022 (F22) project for the KiDS-1000 analysis, but can be used for other new projects. The raw grid has been assigned baryon feedback parameters as in F22, but one can re-do this and apply a new different baryon feedback model, if needed.
 
-| file name                             | file content  | comments      |
-| -------------                         | ------------- | ------------- |
-|realiztation/compressed_shells.npz     | raw shells at nside=2048 | numpy compressed store with two members: <br /> **"shells"**: contains the 69 shells, <br /> **"shell_info"**: table with information about shell boundaries (redshift, comoving distance in Mpc/h)|
-|cosmology/params.yml                   | yaml file with cosmology parameters, baryonification parameters, random seeds | baryonification parameters are only used for the exended grid  |
-|cosmology/pkd_halos.tar.gz             | compressed PkdGrav3 halo shapshots for each timestep | the compressed store contains files like pkd_halos/CosmoML.XXXXX.fofstats.0, which are the raw PkdGrav3 halo output from the friends-of-friends algorithm, XXXXX is the time step|
-|cosmology/Halofile_MinParts=100.npz    | profiled halos with minimum of 100 particles, from the F22 analysis| |
-|cosmology/param_files.tar.gz           | | |
-|cosmology/shells_nside=512.npz         | | |
-|cosmology/baryonified_shells.npz       | | |
-|cosmology/pkd_spectra.tar.gz           | | |
+| file name                               | file content  | comments      |
+| -------------                           | ------------- | ------------- |
+|`realiztation/compressed_shells.npz`     | raw shells at nside=2048 | numpy compressed store with two members: <br /> `shells`: contains the 69 shells, <br /> `shell_info`: table with information about shell boundaries (redshift, comoving distance in Mpc/h)|
+|`cosmology/params.yml`                   | yaml file with cosmology parameters, baryonification parameters, random seeds | baryonification parameters are only used for the exended grid  |
+|`cosmology/pkd_halos.tar.gz`             | compressed PkdGrav3 halo shapshots for each timestep | the compressed store contains files like `pkd_halos/CosmoML.XXXXX.fofstats.0`, which are the raw PkdGrav3 halo output from the friends-of-friends algorithm, `XXXXX` is the time step|
+|`cosmology/Halofile_MinParts=100.npz`    | profiled halos with minimum of 100 particles, from the F22 analysis| Numpy compressed store with the following fields <br /> **"shell_info"** as above, **"halos"** catalog of halos with profile parameters obtained by NFW profile fitting in F22 (see below for catalog fields description) |
+|`cosmology/param_files.tar.gz`           | compressed collection of logs and configuration files |  The files are: `baryonification_params.py`: configuration input to the shell baryonification code <br />   `baryonified_shells.npz.info`: log of the baryonification code <br />   `class_processed.hdf5`: HDF5 file with background quantities as a function of redshift from the CLASS code <br />   `concept.params`: input to the CONCEPT initial conditions code <br />   `cosmology.par`: PkdGrav3 input file <br />   `CosmoML.log`: raw PkdGrav3 log <br />    |
+|`cosmology/shells_nside=512.npz`         | numpy compressed store with 69 maps at nside=512 resolution, without baryonification | |
+|`cosmology/baryonified_shells.npz`       | numpy compressed store with 69 maps at nside=512 resolution, with baryonification | |
+|`cosmology/pkd_spectra.tar.gz`           | compressed raw PkdGrav3 power spectra output | a single filer per time step, like `CosmoML.XXXXX.pk`, where `XXXXX` is the time step  |
 
 
 
@@ -57,10 +57,10 @@ This data is described in [Kacprzak et al. 2022](www.arxiv.org/???).
 
 | file name     | file content  | comments      |
 | ------------- | ------------- | ------------- |
-| realization/projected_probes_maps_baryonified512.h5   | | |                            
-| realization/projected_probes_maps_nobaryons512.h5     | | |                          
-| realization/shell_permutations_index.h5               | | |                
-| probe_weights_kg_ia_dg.h5                             | | | 
+| `realization/projected_probes_maps_baryonified512.h5`   | HDF5 store with baryonified probe maps for 4 redshift bins for lensing, clustering and intrinsic alignment probes | the HDF5 file has the following structure: `probe/sample`|                            
+| `realization/projected_probes_maps_nobaryons512.h5`     | Same as above, but with no baryonification | same as above |                          
+| `realization/shell_permutations_index.h5`               | HDF5 store with information about the shell selection for the shell permutation scheme | contains datsets:  <br /> `shell_groups`: list of shell groups taken from different simulations   <br /> `perms_info`: information which simulation to use for each shell group and whether to apply rotations or flips (see below for description of this table)|                
+| `probe_weights_kg_ia_dg.h5`                             | HDF store with probe projection kernels, single value for shell mean redshift | datasets are organized as `probe/sample` | 
 
 
 
@@ -85,3 +85,18 @@ This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771).
 | realization/projected_patches_euler.npz         | | |
 | realization/shells_nside=512.npz'               | | |
 | realization/wl_weights.npz                      | | |
+
+
+# Catalog fields
+
+In this section we describe fields in various catalogs contained by the files above.
+
+### Profiled halo catalogs
+
+The halo catalog with profile paameters are condained in files like `Halofile_MinParts=100.npz` and have the following attributes for each halo:
+
+| file name     | file content  | comments      |
+| ------------- | ------------- | ------------- |
+|||
+|||
+
