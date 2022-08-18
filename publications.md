@@ -4,14 +4,6 @@ title: "Publications"
 permalink: /publications/
 ---
 
-
-## Towards a full wCDM map-based analysis for weak lensing surveys
-
-Dominik Zürcher, Janis Fluri, Virginia Ajani, Silvan Fischbacher, Alexandre Refregier, Tomasz Kacprzak
-
-[https://arxiv.org/abs/2206.01450](https://arxiv.org/abs/2206.01450)
-
-
 <style>
 img {
   max-width: 70%;
@@ -20,6 +12,24 @@ img {
   display: block;
 }
 </style>
+
+## CosmoGrid: a simulated wCDM theory prediction for map-level cosmological inference
+
+Tomasz Kacprzak, Janis Fluri, Aurel Schneider, Alexandre Refregier, and Joachim Stadel
+
+[https://arxiv.org/abs/???](https://arxiv.org/abs/???)
+
+![](/figures/kacprzak2022.png) 
+
+> We present CosmoGrid: a large lightcone simulation set for map-level cosmological inference with probes of large scale structure. It is designed for cosmological parameter measurement with the Stage-III photometric surveys with non-Gaussian statistics and machine learning. CosmoGrid spans the wCDM model and varies Ωm, σ8, w0, H0, ns, Ωb, with three degenerate neutrinos fixed at mν = 0.02 eV. This space is covered by 2500 grid points on a Sobol sequence. At each grid point, we run 7 simulations with PkdGrav3 and store 69 particle maps at nside=2048 up to z = 3.5, as well as halo catalog snapshots. The fiducial cosmology has 200 independent simulations, along with their stencil derivatives. An important part of CosmoGrid is the benchmark set of 28 simulations, which include larger boxes, higher particle counts, and higher redshift resolution of shells. They allow for testing if new types of analyses are sensitive to choices made in making CosmoGrid. We add baryon feedback effects on the map level, using the shell-based baryon correction model. The shells are used to create maps of weak gravitational lensing, intrinsic alignment, and galaxy clustering. Intrinsic align- ments and galaxy biasing can be modeled using the available data products in post-processing. The main part of CosmoGrid are the raw particle count shells that can be used to create full-sky maps for a given n(z). We also release projected maps for a Stage-III forecast, as well as maps used previously in KiDS-1000 deep learning constraints with CosmoGrid. The data is available at www.cosmogrid.ai.
+
+
+
+## Towards a full wCDM map-based analysis for weak lensing surveys
+
+Dominik Zürcher, Janis Fluri, Virginia Ajani, Silvan Fischbacher, Alexandre Refregier, Tomasz Kacprzak
+
+[https://arxiv.org/abs/2206.01450](https://arxiv.org/abs/2206.01450)
 
 ![](/figures/zuercher2022.png) 
 
