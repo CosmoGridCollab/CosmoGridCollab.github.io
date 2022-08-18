@@ -1,6 +1,6 @@
 ## Welcome to the CosmoGrid public release website
 
-<img src="/figures/cosmogrid_shells.png" width="600" />
+<img src="/figures/cosmogrid_shells_shade.png" width="600" />
 
 You can use the [editor on GitHub](https://github.com/CosmoGridCollab/CosmoGridCollab.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
