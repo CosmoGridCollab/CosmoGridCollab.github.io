@@ -91,12 +91,50 @@ This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771).
 
 In this section we describe fields in various catalogs contained by the files above.
 
+### Shell information
+
+
+Information about shells boundaries and centers. Those are different for every cosmology, but the same for all realiszations for the same cosmology. It can be found in `compressed_shells.npz` in the `shell_info` field.
+
+| field         | data type     | content       |
+| ------------- | ------------- | ------------- |
+|`shell_name`      |   U512     | file name of the original shell (not needed) |    
+|`shell_id`        |   i4       | id of the shell |
+|`lower_z`         |   f4       | redshift of the lower boundary of the shell |
+|`upper_z`         |   f4       | redshift of the upper boundary of the shell |
+|`lower_com`       |   f4       | comoving distance to the lower boundary of the shell |
+|`upper_com`       |   f4       | comoving distance to the upper boundary of the shell |
+|`shell_com`       |   f4       | comoving distance to the center of the shell |
+
 ### Profiled halo catalogs
 
 The halo catalog with profile paameters are condained in files like `Halofile_MinParts=100.npz` and have the following attributes for each halo:
 
-| file name     | file content  | comments      |
+| field         | data type     | content       |
 | ------------- | ------------- | ------------- |
-|||
-|||
+|`ID`             | <i8 | |
+|`IDhost`         | <i8 | |
+|`Mvir`           | <f8 | |
+|`Nvir`           | <i8 | |
+|`x`              | <f8 | |
+|`y`              | <f8 | |
+|`z`              | <f8 | |
+|`rvir`           | <f8 | |
+|`cvir`           | <f8 | |
+|`tfNFW_cvir`     | <f8 | |
+|`tfNFW_tau`      | <f8 | |
+|`tfNFW_Mvir`     | <f8 | |
+|`shell_id`       | <i4 | |
+
+
+### Shell permutation index
+
+Configuration for shell permutation scheme. It can be found in `shell_permutations_index.h5` files.
+
+| field         | data type     | content       |
+| ------------- | ------------- | ------------- |
+|id_sim  |    <i4 | simulation id for the shell group (0-6 for the grid and 0-199 for the fiducial |
+|rot     |    <i4 | 0, 1, 2, or 3, apply the rotation by a multiple of rot * 45 deg  |
+|flip_ud |    <i4 | 0 or 1, if to apply the the up-down flip |
+|flip_lr |    <i4 | 0 or 1, if to apply the the left-right flip |
 
