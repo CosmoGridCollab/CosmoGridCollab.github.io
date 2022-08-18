@@ -13,6 +13,10 @@ img {
 }
 </style>
 
+# List of publications using CosmoGrid
+
+{:toc} 
+
 ## CosmoGrid: a simulated wCDM theory prediction for map-level cosmological inference
 
 Tomasz Kacprzak, Janis Fluri, Aurel Schneider, Alexandre Refregier, and Joachim Stadel
