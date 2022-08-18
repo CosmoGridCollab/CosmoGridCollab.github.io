@@ -22,7 +22,7 @@ The CosmoGrid directory tree follows this structure:
 
 where:
 
-- `dataset_type` are the availabe datasets, and currently contain `raw`, `Stage3_forecast` or `KiDS1000_data_products`. the `raw` dataset contains the raw data used to create other sets.
+- `dataset_type` are the availabe datasets, and currently contain `raw`, `stage3_forecast` or `KiDS1000_data_products`. the `raw` dataset contains the raw data used to create other sets.
 
 - `simulation_set`:  there are three simulation sets `grid`, `fiducial` and `benchmarks`
 
