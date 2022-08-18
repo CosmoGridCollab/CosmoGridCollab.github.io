@@ -4,7 +4,6 @@ title: "Data documentation"
 permalink: /data_docs/
 ---
 
-
 # Available data products
 
 For each simulation, we store:
@@ -14,7 +13,32 @@ For each simulation, we store:
 - projected full sky weak lensing, galaxy density, and intrinsic alignments maps for a Stage-III forecast, including baryonification, at the nside=512,
 - projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022.
 
+
+# Simulation files structure
+
+The CosmoGrid directory tree follows this structure:
+
+`CosmoGrid/dataset_type/simulation_set/cosmology/realization/`
+
+where:
+
+- `dataset_type` are the availabe datasets, and currently contain `raw`, `Stage3_forecast` or `KiDS1000_data_products`. the `raw` dataset contains the raw data used to create other sets.
+
+- `simulation_set`:  there are three simulation sets `grid`, `fiducial` and `benchmarks`
+
+- `cosmology`: each directory contains simulations for a given cosmological parameter set
+
+- `realization`: each independent or quasi-independent realization for the given cosmology. This can be from a single, replicated N-body run, or using the shell permutation scheme
+
+
+- `CosmoGrid/KiDS1000_data_products`:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps, from [Fluri et al. 2022](www.arxiv.org/abs/2201.07771)
+
+- `CosmoGrid/Stage3_forecast`: full sky projected weak lensing, intrinsic alignment, and galaxy clustering maps at nside=512 for a Stage-III survey forecast from [Kacprzak et al. 2022](www.arxiv.org/???)
+
 # Raw lightcone shells
+
+The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells with nside=2048, snapshot halo catalogs, full sky shells at nside=512 with and without baryonification
+
 
 table
 
