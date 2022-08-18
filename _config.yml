@@ -1,3 +1,10 @@
 theme: jekyll-theme-slate
 title: CosmoGrid
 description: Fully numerical theory prediction of the wCDM model for simulation-based cosmological inference
+
+navbar-links:
+  Projects: "project"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
