@@ -8,6 +8,8 @@ The example shell maps for different cosmological models are on shown below.
 
 <img src="/figures/cosmogrid_shells_shade.png" width="600" />
 
+### What is included in CosmoGrid?
+
 The CosmoGrid dataset consists of a total of 20928 simulations divided into three main parts: 
 - *grid*: a set of 2500 cosmologies, each with 7 simulations from unique initial conditions (a total of 17500 N-body runs), 
 - *fiducial*: simulations and the fiducial cosmology and its ±∆ derivatives, with 200 unique initial conditions (600 runs),
