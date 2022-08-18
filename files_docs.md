@@ -42,8 +42,8 @@ The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells w
 |`cosmology/pkd_halos.tar.gz`             | compressed PkdGrav3 halo shapshots for each timestep | the compressed store contains files like `pkd_halos/CosmoML.XXXXX.fofstats.0`, which are the raw PkdGrav3 halo output from the friends-of-friends algorithm, `XXXXX` is the time step|
 |`cosmology/Halofile_MinParts=100.npz`    | profiled halos with minimum of 100 particles, from the F22 analysis| Numpy compressed store with the following fields <br /> `shell_info` as above, `halos` catalog of halos with profile parameters obtained by NFW profile fitting in F22 (see below for catalog fields description) |
 |`cosmology/param_files.tar.gz`           | compressed collection of logs and configuration files |  The files are: `baryonification_params.py`: configuration input to the shell baryonification code <br />   `baryonified_shells.npz.info`: log of the baryonification code <br />   `class_processed.hdf5`: HDF5 file with background quantities as a function of redshift from the CLASS code <br />   `concept.params`: input to the CONCEPT initial conditions code <br />   `cosmology.par`: PkdGrav3 input file <br />   `CosmoML.log`: raw PkdGrav3 log <br />    |
-|`cosmology/shells_nside=512.npz`         | numpy compressed store with 69 maps at nside=512 resolution, without baryonification | |
-|`cosmology/baryonified_shells.npz`       | numpy compressed store with 69 maps at nside=512 resolution, with baryonification | |
+|`cosmology/shells_nside=512.npz`         | numpy compressed store with 69 maps at nside=512 resolution, without baryonification | contains the same fields as `ompressed_shells.npz` |
+|`cosmology/baryonified_shells.npz`       | numpy compressed store with 69 maps at nside=512 resolution, with baryonification | contains the same fields as `ompressed_shells.npz` |
 |`cosmology/pkd_spectra.tar.gz`           | compressed raw PkdGrav3 power spectra output | a single filer per time step, like `CosmoML.XXXXX.pk`, where `XXXXX` is the time step  |
 
 
