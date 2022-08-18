@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Projects using CosmoGrid"
+title: "Publications"
 permalink: /projects/
 ---
 
