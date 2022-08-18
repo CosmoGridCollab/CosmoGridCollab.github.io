@@ -21,6 +21,27 @@ The example shell maps for different cosmological models are on shown below.
 
 <img src="/figures/cosmogrid_shells_shade.png" width="600" />
 
+## Citing CosmoGrid
+
+If you use this dataset for any publication, please cite the following papers:
+
+```
+@ARTICLE{Fluri2022kids1000,
+       author = {{Fluri}, Janis and {Kacprzak}, Tomasz and {Lucchi}, Aurelien and {Schneider}, Aurel and {Refregier}, Alexandre and {Hofmann}, Thomas},
+        title = "{Full w CDM analysis of KiDS-1000 weak lensing maps using deep learning}",
+      journal = {Physical Review D},
+         year = 2022,
+        month = apr,
+       volume = {105},
+       number = {8},
+          eid = {083518},
+        pages = {083518},
+          doi = {10.1103/PhysRevD.105.083518},
+archivePrefix = {arXiv},
+       eprint = {2201.07771},
+ primaryClass = {astro-ph.CO},
+}
+```
 
 
 
