@@ -24,7 +24,7 @@ table
 
 table
 
-# KiDS-1000 data from [Fluri et al. 2022][www.arxiv.org/abs/2201.07771]
+# KiDS-1000 data from [Fluri et al. 2022](www.arxiv.org/abs/2201.07771)
 
 table
 
