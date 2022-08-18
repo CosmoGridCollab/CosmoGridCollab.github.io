@@ -14,9 +14,9 @@ The data is hosted by ETH Zurich and is available via the Globus transfer. For e
 - raw simulation lightcone particle count maps stored at Healpix nside=2048 up to z<3.5 (69 shells per simulation),
 - halo catalog snapshots created using the friends-of-friends halo finder, with halo mass of M = 10^12 M⊙, at every time step,
 - projected full sky weak lensing, galaxy density, and intrinsic alignments maps for a Stage-III forecast, including baryonification, at the nside=512,
-- projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022,
+- projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022.
 
-## Example shell map images
+### Example shell map images
 The example shell maps for different cosmological models are on shown below. 
 The provided maps are full sky at Healpix resolution of nside=2048.
 
