@@ -4,6 +4,10 @@ CosmoGrid is large lightcone simulation set for map-level, simulation-based cosm
 It is designed to for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
 The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
 
+The example shell maps for different cosmological models are on shown below. 
+
+<img src="/figures/cosmogrid_shells_shade.png" width="600" />
+
 The CosmoGrid dataset consists of a total of 20928 simulations divided into three main parts: 
 - *grid*: a set of 2500 cosmologies, each with 7 simulations from unique initial conditions (a total of 17500 N-body runs), 
 - *fiducial*: simulations and the fiducial cosmology and its ±∆ derivatives, with 200 unique initial conditions (600 runs),
@@ -21,12 +25,6 @@ Additional features include:
 - NLA intrinsic alignments can be added in post-processing,
 - linear and non-linear galaxy biasing models based on the matter density constrast maps can also be added in post-processing.
 - ability to create many quasi random projected maps at each grid point using shell permutation scheme
-
-### Example shell map images
-The example shell maps for different cosmological models are on shown below. 
-The provided maps are full sky at Healpix resolution of nside=2048.
-
-<img src="/figures/cosmogrid_shells_shade.png" width="600" />
 
 ### Full grid points
 
@@ -68,3 +66,5 @@ The simulations were ran at the Swiss Supercomputing Center (CSCS) as a part of 
 ```
 
 ```
+
+<img src="/figures/cosmogrid_shells_shade.png" width="600" />
