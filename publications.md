@@ -15,7 +15,7 @@ img {
 
 # List of publications using CosmoGrid
 
-* Placeholder for Table of Content (Must not be removed) <newline> {:toc}
+
 
 ## CosmoGrid: a simulated wCDM theory prediction for map-level cosmological inference
 
