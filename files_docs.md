@@ -35,10 +35,18 @@ where:
 
 The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells with nside=2048, snapshot halo catalogs, full sky shells at nside=512 with and without baryonification
 
-| file name     | file content  | comments      |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | aa            |
-| Content Cell  | Content Cell  | aa            |
+| file name                             | file content  | comments      |
+| -------------                         | ------------- | ------------- |
+|cosmology/compressed_shells.npz        | | |
+|cosmology/params.yml                   | | |
+|cosmology/pkd_halos.tar.gz             | | |
+|cosmology/Halofile_MinParts=100.npz    | | |
+|cosmology/param_files.tar.gz           | | |
+|cosmology/shells_nside=512.npz         | | |
+|cosmology/baryonified_shells.npz       | | |
+|cosmology/pkd_spectra.tar.gz           | | |
+
+
 
 
 
@@ -49,8 +57,10 @@ This data is described in [Kacprzak et al. 2022](www.arxiv.org/???).
 
 | file name     | file content  | comments      |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | aa            |
-| Content Cell  | Content Cell  | aa            |
+| realization/projected_probes_maps_baryonified512.h5   | | |                            
+| realization/projected_probes_maps_nobaryons512.h5     | | |                          
+| realization/shell_permutations_index.h5               | | |                
+| probe_weights_kg_ia_dg.h5                             | | | 
 
 
 
@@ -61,6 +71,17 @@ This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771).
 
 | file name     | file content  | comments      |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | aa            |
-| Content Cell  | Content Cell  | aa            |
-
+| realization/CosmoML.log                         | | |
+| realization/Halofile_MinParts=100.npz'          | | |
+| realization/baryonification_params.py           | | |
+| realization/baryonified_shells.npz              | | |
+| realization/baryonified_shells.npz.info         | | |
+| realization/class_processed.hdf5                | | |
+| realization/concept.params                      | | |
+| realization/cosmology.par                       | | |
+| realization/noise_patches.npz                   | | |
+| realization/params.yml                          | | |
+| realization/projected_patches_baryon_euler.npz  | | |
+| realization/projected_patches_euler.npz         | | |
+| realization/shells_nside=512.npz'               | | |
+| realization/wl_weights.npz                      | | |
