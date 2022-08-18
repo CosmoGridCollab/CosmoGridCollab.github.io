@@ -28,6 +28,9 @@ The full grid spans 6 cosmological models covered with a Sobol sequence with 250
 
 <img src="/figures/cosmogrid_points_shade.png" width="600" />
 
+Pink points show the "tight" grid, while blue points show the "wide" grid.
+Additional 200 indepdendent simulations are created at the fiducial cosmology.
+
 ### Citing CosmoGrid
 
 If you use this dataset for any publication, please cite the following papers:
