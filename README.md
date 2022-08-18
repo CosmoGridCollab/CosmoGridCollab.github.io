@@ -16,6 +16,8 @@ The data is hosted by ETH Zurich and is available via the Globus transfer. For e
 - projected full sky weak lensing, galaxy density, and intrinsic alignments maps for a Stage-III forecast, including baryonification, at the nside=512,
 - projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022,
 
+## Example shell map images
+The example shell maps for different cosmological models are on shown below.
 
 <img src="/figures/cosmogrid_shells_shade.png" width="600" />
 
