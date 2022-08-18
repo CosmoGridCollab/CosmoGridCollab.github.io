@@ -1,6 +1,31 @@
-## Welcome to the CosmoGrid public release website
+## CosmoGrid public release website
+
+CosmoGrid is large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
+It is designed to for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
+The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
+
+The CosmoGrid dataset consists of a total of 20928 simulations divided into three main parts: 
+- grid:   a set of 2500 cosmologies, each with 7 simulations from unique initial conditions (a total of 17500 N-body runs), 
+- fiducial: simulations and the fiducial cosmology and its $\pm\Delta$ derivatives, with 200 unique initial conditions (600 runs),
+- benchmark: simulation benchmarks used for systematics testing of features chosen for parameter inference (28 runs).
+
+The data is hosted by ETH Zurich and is available via the Globus transfer. For each simulation, we store:
+
+- raw simulation lightcone particle count maps stored at Healpix nside=2048 up to z<3.5 (69 shells per simulation),
+- halo catalog snapshots created using the friends-of-friends halo finder, with halo mass of M = 10^12 M⊙, at every time step,
+- projected full sky weak lensing, galaxy density, and intrinsic alignments maps for a Stage-III forecast, including baryonification, at the nside=512,
+- projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022,
+
 
 <img src="/figures/cosmogrid_shells_shade.png" width="600" />
+
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/CosmoGridCollab/CosmoGridCollab.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
