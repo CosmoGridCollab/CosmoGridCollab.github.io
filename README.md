@@ -6,7 +6,7 @@ The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
 
 The example shell maps for different cosmological models are on shown below. 
 
-<img src="/figures/cosmogrid_shells_shade.png" width="600" />
+<img src="/figures/cosmogrid_shells.png" width="600" />
 
 ### What is included in CosmoGrid?
 
@@ -32,7 +32,7 @@ Additional features include:
 
 The full grid spans 6 cosmological models covered with a Sobol sequence with 2500 points.
 
-<img src="/figures/cosmogrid_points_shade.png" width="600" />
+<img src="/figures/cosmogrid_points.png" width="600" />
 
 Pink points show the "tight" grid, while blue points show the "wide" grid.
 Additional 200 indepdendent simulations are created at the fiducial cosmology marked with a red star.
