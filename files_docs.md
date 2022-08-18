@@ -42,9 +42,10 @@ The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells w
 
 
 
-# Stage-III forecast probe maps from [Kacprzak et al. 2022](www.arxiv.org/???)
+# Stage-III forecast probe maps 
 
 Probe maps that can be used for making forecasts for Stage-3 large scale structure surveys are stored in `CosmoGrid/Stage3_forecast` and condain: full sky projected weak lensing, intrinsic alignment, and galaxy clustering maps at nside=512 for a Stage-III survey forecast. 
+This data is described in [Kacprzak et al. 2022](www.arxiv.org/???).
 
 | file name     | file content  | comments      |
 | ------------- | ------------- | ------------- |
@@ -53,9 +54,10 @@ Probe maps that can be used for making forecasts for Stage-3 large scale structu
 
 
 
-# KiDS-1000 data from [Fluri et al. 2022](www.arxiv.org/abs/2201.07771)
+# KiDS-1000 weak lensing analysis data
 
 The data used by Fluri et al. 2022 for the KiDS-1000 analysis with deep learning is stored in `CosmoGrid/KiDS1000_data_products`, and contains:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps.
+This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771).
 
 | file name     | file content  | comments      |
 | ------------- | ------------- | ------------- |
