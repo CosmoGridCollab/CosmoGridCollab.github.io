@@ -11,9 +11,15 @@ Dominik Zürcher, Janis Fluri, Virginia Ajani, Silvan Fischbacher, Alexandre Ref
 
 [https://arxiv.org/abs/2206.01450](https://arxiv.org/abs/2206.01450)
 
-<img src="/figures/zuercher2022.png" height="5" />
 
-![](/figures/zuercher2022.png)
+<style>
+img {
+  max-width: 10%;
+  height: auto;
+}
+</style>
+
+<img src="/figures/zuercher2022.png" />
 
 > The next generation of weak lensing surveys will measure the matter distribution of the local Universe with unprecedented precision. This encourages the use of higher-order mass-map statistics for cosmological parameter inference. However, the increased quality of the data poses new challenges for map-based analyses. We extend the methodology introduced in arXiv:2006.12506 to match these requirements. Using this pipeline, we provide forecasts for the wCDM parameter constraints for stage 3 and stage 4 weak lensing surveys. We consider different survey setups, summary statistics and mass map filters including Starlets. The impact of baryons on the summary statistics is investigated and the necessary scale cuts are applied in the forecast. We compare the traditional angular power spectrum analysis to two extrema count statistics (peak and minima counts) as well as Minkowski functionals and the Starlet ℓ1-norm of the mass maps. In terms of map filters we find a preference for Starlet over Gaussian filters. Our results further suggest that using a survey setup with 10 instead of 5 tomographic redshift bins is beneficial. The addition of cross-tomographic information is found to improve the constraints on cosmology and especially on galaxy intrinsic alignment for all statistics. In terms of constraining power, we find the angular power spectrum and the peak counts to be equally matched for stage 4 surveys, followed by minima counts, the Minkowski functionals and then the Starlet ℓ1-norm. Combining different summary statistics significantly improves the constraints and compensates for the constraining power that is lost due to the stringent scale cuts. We identify the most cost-effective combination to be the angular power spectrum, peak counts and Minkowski functionals following Starlet filtering. 
 
