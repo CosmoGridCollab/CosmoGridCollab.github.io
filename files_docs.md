@@ -33,7 +33,7 @@ where:
 
 # Raw lightcone shells
 
-The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells with nside=2048, snapshot halo catalogs, full sky shells at nside=512 with and without baryonification
+The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells with nside=2048, snapshot halo catalogs, full sky shells at nside=512 with and without baryonification. They were created during the Fluri et al. 2022 (F22) project for the KiDS-1000 analysis, but can be used for other new projects.
 
 | file name                             | file content  | comments      |
 | -------------                         | ------------- | ------------- |
