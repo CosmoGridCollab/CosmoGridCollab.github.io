@@ -65,7 +65,7 @@ archivePrefix = {arXiv},
 ### Credits
 
 CosmoGrid was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
-The simulations were ran at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
+The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
 
 <p align="center">
        <img src="/figures/CSCS_logo.png" width="150" />
