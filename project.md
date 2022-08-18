@@ -1,7 +1,6 @@
 ---
-theme: jekyll-theme-slate
 layout: page
-title: "PAGE TITLE"
+title: "Projects using CosmoGrid"
 permalink: /projects/
 ---
 
