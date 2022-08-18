@@ -34,7 +34,7 @@ If you use this dataset for any publication, please cite the following papers:
 
 ```
 @ARTICLE{Fluri2022kids1000,
-       author = {{Fluri}, Janis and {Kacprzak}, Tomasz and {Lucchi}, Aurelien and {Schneider}, Aurel and {Refregier}, Alexandre and {Hofmann}, Thomas},
+       author = { {Fluri}, Janis and {Kacprzak}, Tomasz and {Lucchi}, Aurelien and {Schneider}, Aurel and {Refregier}, Alexandre and {Hofmann}, Thomas},
         title = "{Full w CDM analysis of KiDS-1000 weak lensing maps using deep learning}",
       journal = {Physical Review D},
          year = 2022,
