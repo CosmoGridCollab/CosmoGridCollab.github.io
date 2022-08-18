@@ -1,11 +1,11 @@
 ### CosmoGrid public release
 
 CosmoGrid is a large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
-It is designed to for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
+It is designed for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
 It was created in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771) at the Swiss Supercomputing Center (CSCS).
 The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
 
-The example shell maps for different cosmological models are on shown below. 
+The example shell maps for different cosmological models are shown below. 
 
 <img src="/figures/cosmogrid_shells.png" width="600" />
 
@@ -40,7 +40,7 @@ The full grid spans 6 cosmological models covered with a Sobol sequence with 250
 <img src="/figures/cosmogrid_points.png" width="600" />
 
 Pink points show the "tight" grid, while blue points show the "wide" grid.
-Additional 200 indepdendent simulations are created at the fiducial cosmology marked with a red star.
+Additional 200 independent simulations are created at the fiducial cosmology marked with a red star.
 
 ### Citing CosmoGrid
 
