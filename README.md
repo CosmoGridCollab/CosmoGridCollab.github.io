@@ -1,3 +1,7 @@
+### This website is under construction
+
+Dataset download will become available upon the publication of the accompanying paper
+
 ### CosmoGrid public release website
 
 CosmoGrid is large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
