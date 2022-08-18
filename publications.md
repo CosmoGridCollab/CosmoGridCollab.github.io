@@ -14,8 +14,8 @@ Dominik Zürcher, Janis Fluri, Virginia Ajani, Silvan Fischbacher, Alexandre Ref
 
 <style>
 img {
-  max-width: 50%;
-  height: auto;
+  max-height: 100;
+  width: auto;
   margin: auto;
   display: block;
 }
