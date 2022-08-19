@@ -14,6 +14,9 @@ img {
 }
 </style>
 
+* Placeholder for Table of Content (Must not be removed)
+{:toc}
+
 # List of publications using CosmoGrid
 
 
