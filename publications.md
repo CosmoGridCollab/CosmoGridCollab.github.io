@@ -14,11 +14,12 @@ img {
 }
 </style>
 
-* Placeholder for Table of Content (Must not be removed)
-{:toc}
 
 # List of publications using CosmoGrid
+{:.no_toc}
 
+* Placeholder for Table of Content (Must not be removed)
+{:toc}
 
 ## CosmoGrid: a simulated wCDM theory prediction for map-level cosmological inference
 
