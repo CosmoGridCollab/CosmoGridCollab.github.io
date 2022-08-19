@@ -2,6 +2,7 @@
 layout: page
 title: "Publications"
 permalink: /publications/
+toc: true
 ---
 
 <style>
