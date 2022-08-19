@@ -9,6 +9,19 @@ The example shell maps for different cosmological models are shown below.
 
 <img src="/figures/cosmogrid_shells.png" width="600" />
 
+## Credits
+
+CosmoGrid was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
+The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
+
+<p align="center">
+       <img src="/figures/CSCS_logo.png" width="150" />
+       &nbsp; &nbsp; &nbsp; &nbsp;
+       <img src="/figures/ETH_Zürich_Logo_black.svg" width="150" />
+       &nbsp; &nbsp; &nbsp; &nbsp;
+       <img src="/figures/university-of-zurich-logo.png" width="150" />
+</p>
+
 ## This website is under construction
 
 Dataset download will become available upon the publication of the accompanying paper
@@ -64,18 +77,7 @@ archivePrefix = {arXiv},
 }
 ```
 
-## Credits
 
-CosmoGrid was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
-The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
-
-<p align="center">
-       <img src="/figures/CSCS_logo.png" width="150" />
-       &nbsp; &nbsp; &nbsp; &nbsp;
-       <img src="/figures/ETH_Zürich_Logo_black.svg" width="150" />
-       &nbsp; &nbsp; &nbsp; &nbsp;
-       <img src="/figures/university-of-zurich-logo.png" width="150" />
-</p>
 
 
 ## Licence
