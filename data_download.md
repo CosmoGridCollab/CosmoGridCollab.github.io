@@ -6,4 +6,4 @@ permalink: /data_download/
 
 # Data download
 
-The data will be available via [Globus](www.globus.org) with CILogin.
+The data will be available via [Globus](https://www.globus.org) with CILogin.
