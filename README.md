@@ -1,4 +1,4 @@
-### CosmoGrid public release
+# CosmoGrid public release
 
 CosmoGrid is a large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
 It is designed for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
@@ -9,11 +9,11 @@ The example shell maps for different cosmological models are shown below.
 
 <img src="/figures/cosmogrid_shells.png" width="600" />
 
-### This website is under construction
+## This website is under construction
 
 Dataset download will become available upon the publication of the accompanying paper
 
-### What is included in CosmoGrid?
+## What is included in CosmoGrid?
 
 The CosmoGrid dataset consists of a total of 20928 simulations divided into three main parts: 
 - **grid**: a set of 2500 cosmologies, each with 7 simulations from unique initial conditions (a total of 17500 N-body runs), 
@@ -33,7 +33,7 @@ Additional features include:
 - linear and non-linear galaxy biasing models based on the matter density constrast maps can also be added in post-processing.
 - ability to create many quasi random projected maps at each grid point using shell permutation scheme
 
-### Full grid points
+## Full grid points
 
 The full grid spans 6 cosmological models covered with a Sobol sequence with 2500 points.
 
@@ -42,7 +42,7 @@ The full grid spans 6 cosmological models covered with a Sobol sequence with 250
 Pink points show the "tight" grid, while blue points show the "wide" grid.
 Additional 200 independent simulations are created at the fiducial cosmology marked with a red star.
 
-### Citing CosmoGrid
+## Citing CosmoGrid
 
 If you use this dataset for any publication, please cite the following papers:
 
@@ -63,7 +63,8 @@ archivePrefix = {arXiv},
  primaryClass = {astro-ph.CO},
 }
 ```
-### Credits
+
+## Credits
 
 CosmoGrid was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
 The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
@@ -77,7 +78,7 @@ The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of 
 </p>
 
 
-### Licence
+## Licence
 
 ```
 The information about the licence will appear here.
