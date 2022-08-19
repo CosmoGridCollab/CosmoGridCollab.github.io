@@ -4,7 +4,15 @@ title: "Data documentation"
 permalink: /data_docs/
 ---
 
-# Available data products
+
+# Data documentation
+{:.no_toc}
+
+* Placeholder for Table of Content (Must not be removed)
+{:toc}
+
+
+## Available data products
 
 For each simulation, we store:
 
@@ -14,7 +22,7 @@ For each simulation, we store:
 - projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022.
 
 
-# Simulation files structure
+## Simulation files structure
 
 The CosmoGrid directory tree follows this structure:
 
@@ -31,7 +39,7 @@ where:
 - `realization`: each independent or quasi-independent realization for the given cosmology. This can be from a single, replicated N-body run, or using the shell permutation scheme
 
 
-# Raw lightcone shells
+## Raw lightcone shells
 
 The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells with nside=2048, snapshot halo catalogs, full sky shells at nside=512 with and without baryonification. They were created during the Fluri et al. 2022 (F22) project for the KiDS-1000 analysis, but can be used for other new projects. The raw grid has been assigned baryon feedback parameters as in F22, but one can re-do this and apply a new different baryon feedback model, if needed.
 
@@ -50,7 +58,7 @@ The raw lightcone shells are stored in `CosmoGrid/raw` and contain: raw shells w
 
 
 
-# Stage-III forecast probe maps 
+## Stage-III forecast probe maps 
 
 Probe maps that can be used for making forecasts for Stage-3 large scale structure surveys are stored in `CosmoGrid/stage3_forecast` and condain: full sky projected weak lensing, intrinsic alignment, and galaxy clustering maps at nside=512 for a Stage-III survey forecast. 
 This data is described in [Kacprzak et al. 2022](www.arxiv.org/???).
@@ -64,7 +72,7 @@ This data is described in [Kacprzak et al. 2022](www.arxiv.org/???).
 
 
 
-# KiDS-1000 weak lensing analysis data
+## KiDS-1000 weak lensing analysis data
 
 The data used by Fluri et al. 2022 for the KiDS-1000 analysis with deep learning is stored in `CosmoGrid/KiDS1000_data_products`, and contains:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps.
 This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771).
@@ -87,7 +95,7 @@ This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771).
 | realization/wl_weights.npz                      | | |
 
 
-# Catalog fields
+## Catalog fields
 
 In this section we describe fields in various catalogs contained by the files above.
 
