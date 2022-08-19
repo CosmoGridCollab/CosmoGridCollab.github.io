@@ -17,6 +17,7 @@ img {
 
 # List of publications using CosmoGrid
 {:.no_toc}
+List of papers (in prep, submitted, or published) that use CosmoGrid.
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
