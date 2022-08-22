@@ -7,8 +7,9 @@ The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
 
 The example shell maps for different cosmological models are shown below. 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qo-LOX6ufqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="youtube-wrapper">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qo-LOX6ufqA" title="YouTube video player" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Credits
 
