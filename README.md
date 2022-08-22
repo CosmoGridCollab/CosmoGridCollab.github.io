@@ -14,6 +14,8 @@ The example shell maps for different cosmological models are shown below.
 CosmoGrid was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
 The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qo-LOX6ufqA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <p align="center">
        <img src="/figures/CSCS_logo.png" width="150" />
        &nbsp; &nbsp; &nbsp; &nbsp;
