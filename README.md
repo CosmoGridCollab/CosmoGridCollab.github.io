@@ -5,7 +5,7 @@ It is designed for practical parameter measurement with the Stage-III survey dat
 It was created in [Fluri et al. 2022](https://www.arxiv.org/abs/2201.07771) at the Swiss Supercomputing Center (CSCS).
 The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
 
-The example shell maps for different cosmological models are shown below. 
+The example shell maps for different cosmological models are show in the video below. It shows the evolution of structures throughout cosmic history, from high to low redshift.
 
 {% include youtube.html %} 
 
