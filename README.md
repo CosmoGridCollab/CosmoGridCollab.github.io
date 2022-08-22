@@ -7,9 +7,6 @@ The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
 
 The example shell maps for different cosmological models are shown below. 
 
-<!-- <img src="/figures/cosmogrid_shells.png" /> -->
-<!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qo-LOX6ufqA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
 {% include youtube.html id='qo-LOX6ufqA' %}
 
 ## Credits
