@@ -16,13 +16,13 @@ The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qo-LOX6ufqA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p align="center">
+<!-- <p align="center">
        <img src="/figures/CSCS_logo.png" width="150" />
        &nbsp; &nbsp; &nbsp; &nbsp;
        <img src="/figures/ETH_Zürich_Logo_black.svg" width="150" />
        &nbsp; &nbsp; &nbsp; &nbsp;
        <img src="/figures/university-of-zurich-logo.png" width="150" />
-</p>
+</p> -->
 
 ## This website is under construction
 
