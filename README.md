@@ -5,7 +5,7 @@ It is designed for practical parameter measurement with the Stage-III survey dat
 It was created in [Fluri et al. 2022](https://www.arxiv.org/abs/2201.07771) at the Swiss Supercomputing Center (CSCS).
 The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
 
-The example shell maps for different cosmological models are show in the video below. It shows the evolution of structures throughout cosmic history, from high to low redshift.
+The example shell maps for different cosmological models are show in the video below. It shows the evolution of structures throughout cosmic history, from high to low redshift. Best viewed in fullscreen UHD.
 
 {% include youtube.html %} 
 
@@ -30,7 +30,7 @@ Dataset download will become available upon the publication of the accompanying 
 
 The CosmoGrid dataset consists of a total of 20928 simulations divided into three main parts: 
 - **grid**: a set of 2500 cosmologies, each with 7 simulations from unique initial conditions (a total of 17500 N-body runs), 
-- **fiducial**: simulations and the fiducial cosmology and its ±∆ derivatives, with 200 unique initial conditions (600 runs),
+- **fiducial**: simulations and the fiducial cosmology and its ±∆ derivatives, with 200 unique initial conditions (2800 runs),
 - **benchmark**: simulation benchmarks used for systematics testing of features chosen for parameter inference (28 runs).
 
 The data is hosted by ETH Zurich and is available via the Globus transfer. For each simulation, we store:
