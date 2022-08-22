@@ -10,26 +10,7 @@ The example shell maps for different cosmological models are shown below.
 <!-- <img src="/figures/cosmogrid_shells.png" /> -->
 <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qo-LOX6ufqA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-<style>
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-}
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-</style>
-
-<div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qo-LOX6ufqA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include youtube.html id='qo-LOX6ufqA' %}
 
 ## Credits
 
