@@ -51,7 +51,6 @@ The dataset is provided under the following licence:
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 ```
 which can be accessed [here](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
-
 The summary of the licence:
 ```
 
