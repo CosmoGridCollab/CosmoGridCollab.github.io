@@ -2,6 +2,7 @@
 layout: page
 title: "Data documentation"
 permalink: /data_docs/
+nav_order: 2
 ---
 
 
