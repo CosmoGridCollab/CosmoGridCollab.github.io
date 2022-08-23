@@ -1,3 +1,9 @@
+---
+title: CosmoGrid home
+nav_order: 1
+---
+
+
 # CosmoGrid public release
 
 CosmoGrid is a large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
