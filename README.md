@@ -82,6 +82,7 @@ archivePrefix = {arXiv},
 
 ## Licence
 
+The dataset is provided under the following licence:
 ```
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 ```
