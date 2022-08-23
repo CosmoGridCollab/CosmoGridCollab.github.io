@@ -1,8 +1,3 @@
----
-title: CosmoGrid home
-nav_order: 1
----
-
 
 # CosmoGrid public release
 
