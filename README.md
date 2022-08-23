@@ -83,5 +83,6 @@ archivePrefix = {arXiv},
 ## Licence
 
 ```
-The information about the licence will appear here.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 ```
+which can be accessed [here](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
