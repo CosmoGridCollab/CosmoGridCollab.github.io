@@ -3,6 +3,7 @@ layout: page
 title: "Publications"
 permalink: /publications/
 toc: true
+nav_order: 5
 ---
 
 <style>
