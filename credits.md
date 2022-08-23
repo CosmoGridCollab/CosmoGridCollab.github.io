@@ -52,8 +52,8 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-N
 ```
 which can be accessed [here](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 The summary of the licence:
-```
 
+```
 You are free to:
 
     Share — copy and redistribute the material in any medium or format
