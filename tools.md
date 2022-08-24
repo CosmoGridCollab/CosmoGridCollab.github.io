@@ -12,7 +12,7 @@ This page contains non-exhaustive list of tools that can be useful at different 
 
 ## DeepSphere - convolutional neural network for Healpix maps
 
-While CNNs were developed mainly for natural images, we created a CNN that work on the sphere, called **DeepSphere**. It is described in this paper: [abs/1810.12186](https://arxiv.org/abs/1810.12186). DeepSphere is one of the fastest available spherical convolutions, although has its limitations. The public code for Tensorflow 1/2, and PyTorch, is available from this repository: 
+While CNNs were developed mainly for natural images, we created a CNN that work on the sphere, called **DeepSphere**. It is described in this paper: [arxiv.org/abs/1810.12186](https://arxiv.org/abs/1810.12186). DeepSphere is one of the fastest available spherical convolutions, although has its limitations. The public code for Tensorflow 1/2, and PyTorch, is available from this repository: 
 [github.com/deepsphere](https://github.com/deepsphere).
 
 ## UFalcon - creating probe maps from lightcone shells
