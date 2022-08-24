@@ -124,19 +124,19 @@ The halo catalog with profile paameters are condained in files like `Halofile_Mi
 
 | field         | data type     | content       |
 | ------------- | ------------- | ------------- |
-|`ID`             | <i8 | |
-|`IDhost`         | <i8 | |
-|`Mvir`           | <f8 | |
-|`Nvir`           | <i8 | |
-|`x`              | <f8 | |
-|`y`              | <f8 | |
-|`z`              | <f8 | |
-|`rvir`           | <f8 | |
-|`cvir`           | <f8 | |
-|`tfNFW_cvir`     | <f8 | |
-|`tfNFW_tau`      | <f8 | |
-|`tfNFW_Mvir`     | <f8 | |
-|`shell_id`       | <i4 | |
+|`ID`             | <i8 | Unique ID number of the halo. |
+|`IDhost`         | <i8 | ID of the host halo, a dummy variable set to -1. |
+|`Mvir`           | <f8 | NFW profile viral mass of the halo [Msun/h]. |
+|`Nvir`           | <i8 | Number of particles inside the NFW viral radius. |
+|`x`              | <f8 | x-coordinate of the halo in the lightcone [kpc/h]. |
+|`y`              | <f8 | y-coordinate of the halo in the lightcone [kpc/h]. |
+|`z`              | <f8 | z-coordinate of the halo in the lightcone [kpc/h]. |
+|`rvir`           | <f8 | NFW viral radius of the halo [kpc/h]. |
+|`cvir`           | <f8 | NFW concentration of the halo. |
+|`tfNFW_cvir`     | <f8 | Concentration of the truncated NFW profile, dummy variable set to -1. |
+|`tfNFW_tau`      | <f8 | Tau of the truncated NFW profile, dummy variable set to -1. |
+|`tfNFW_Mvir`     | <f8 | Viral mass of the truncated NFW profile, dummy variable set to -1. |
+|`shell_id`       | <i4 | ID of the shell to which the halo corresponds, see `shell_info` tables in the shell files. |
 
 
 ### Shell permutation index
