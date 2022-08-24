@@ -21,5 +21,5 @@ To create a new set of probe maps for a given set of redshift distribution n(z),
 
 ## PyCosmo - cosmological calculator and Boltzman solver
 
-Cosmological background parameters, distances, and perturbations are computed analytically. The package **PyCosmo** uses a fast Boltzman solver to achieve this, including new cosmological models. It is available at [cosmo-docs.phys.ethz.ch/PyCosmo/index.html](https://cosmo-docs.phys.ethz.ch/PyCosmo). A live cosmological calculator in Jupyter notebooks is avalilable at [PyCosmoHub](https://pycosmohub.com).
+Cosmological background parameters, distances, and perturbations are computed analytically. The package **PyCosmo** uses a fast Boltzman solver to achieve this, including new cosmological models. It is available at [cosmo-docs.phys.ethz.ch/PyCosmo](https://cosmo-docs.phys.ethz.ch/PyCosmo). A live cosmological calculator in Jupyter notebooks is avalilable at [PyCosmoHub](https://pycosmohub.com).
 The public release is described in this paper [Tartsitano et al. 2020](https://arxiv.org/abs/2005.00543).
