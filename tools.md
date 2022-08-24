@@ -6,7 +6,7 @@ toc: true
 nav_order: 6
 ---
 
-# Tools useful for working with CosmoGrid analysis
+# Useful tools for working with CosmoGrid
 
 This page contains non-exhaustive list of tools that can be useful at different stages of simulation-based inference with CosmoGrid.
 
