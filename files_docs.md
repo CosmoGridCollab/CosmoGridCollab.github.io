@@ -79,8 +79,76 @@ This data is described in [Kacprzak et al. 2022](www.arxiv.org/???).
 ### KiDS-1000 weak lensing analysis data
 
 The data used by Fluri et al. 2022 for the KiDS-1000 analysis with deep learning is stored in `CosmoGrid/KiDS1000_data_products`, and contains:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps that were used to train and evaluate the networks. 
-This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). It is stored in the [TFRecord](https://www.tensorflow.org/tutorials/load_data/tfrecord) format and requires decoding. Additionally, only the relevant patches are stored. For the grid, we provide 250 `tfrecord` files named `grid_data_{num:03d}.tfrecord`, where `num` corresponds to the file number. Each file contains the samples from 10 cosmological parameter combination and their labels used for the evaluations of the networks used in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). We provide these sample with or without applied baryonification. 
+This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). It is stored in the [TFRecord](https://www.tensorflow.org/tutorials/load_data/tfrecord) format and requires decoding. Additionally, only the relevant patches are stored. For the grid, we provide 250 `tfrecord` files named `grid_data_{num:03d}.tfrecord`, where `num` corresponds to the file number. Each file contains the samples from 10 cosmological parameter combinations and their labels used for the evaluations of the networks used in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). We provide these sample with or without applied baryonification. The fiducial maps are split into signal only patches with or without applied baryonification and pure noise maps that were used for training or evaluation. Furthermore, a single sample of a fiducial file contains the maps of all delta simulations with the same seed to alleviate the calculations of the derivatives. To decode the files we provide the `read_TFR.py` script that implements the following functions:
 
+```python
+def get_fidu_dset(fname, baryon=False):
+    """
+    Returns a dataset of a fiducial TFRecord file
+    :param fname: file name to decode
+    :param baryon: If baryonification was applied to this file
+    :return: A tensorflow dataset where each sample is a dictionary containing either 15 (if baryon=False)
+             or 19 elements (if baryon=True). Each entry is named "patch_{num}" and has the shape
+             (149504, 10) where the first dimension indicates the pixels in NEST ordering and the second
+             dimension the shear field with the first 5 entries corresponding to gamma_1 of the five
+             redshift bins followed by gamma_2. The ordering of the patches is:
+             fiducial, -delta omega_m, +delta omega_m, -delta sigma_8, +delta sigma_8
+             -delta h_0, +delta h_0, -delta omega_b, +delta omega_b,
+             -delta n_s, +delta n_s, -delta w_0, +delta w_0,
+             -delta A_IA, +delta A_IA, -delta log10M_c, +delta log10M_c,
+             -delta nu, +delta nu
+             where the baryonification parameter patches (log10M_c and nu) are only included if baryon=True.
+    """
+    
+def get_grid_dset(fname, baryon=False):
+    """
+    Returns a dataset of a gird TFRecord file
+    :param fname: file name to decode
+    :param baryon: If baryonification was applied to this file
+    :return: A tensorflow dataset containing two elements. The first element has a shape of (149504, 10)
+             where the first dimension indicates the pixels in NEST ordering and the second
+             dimension the shear field with the first 5 entries corresponding to gamma_1 of the five
+             redshift bins followed by gamma_2. The second element is the label of the cosmology having a
+             length of 9 if baryon=False and 11 if baryon=True. The order of the label is:
+             omega_m, sigma_8, h_0, omega_b, n_s, w_0, A_IA, log10M_c, nu, omega_nu, A_s
+             where the baryonification parameters (log10M_c and nu) are only included if baryon=True.
+    """
+    
+def get_noise_dset(fname):
+    """
+    Returns a dataset of a noise TFRecord file
+    :param fname: file name to decode
+    :return: A tensorflow dataset containing an element of a noise map with a shape of (149504, 10)
+             where the first dimension indicates the pixels in NEST ordering and the second
+             dimension the shear field with the first 5 entries corresponding to gamma_1 of the five
+             redshift bins followed by gamma_2.
+    """
+```
+
+Additionally we provide a file `pixel_indices_NEST.npy` containing the indices of the patches such that they can be maped onto full sky maps, as the following snippet illustrates:
+
+```python
+from read_TFR import get_fidu_dset
+import healpy as hp
+import numpy as np
+
+# load the dataset
+fname = ...
+dset = get_fidu_dset(fname)
+
+# get the first element
+b = next(iter(dset))
+    
+# load the pixel indices
+pix = np.load("pixel_indices_NEST.npy")
+
+# create and fill the map, note that the map is in NEST ordering
+m = np.zeros(hp.nside2npix(512))
+m[pix] = b.numpy()[:,5] # gamma_1 of z-bin 5
+
+# plot
+hp.mollview(m, nest=True)
+```
 
 ## Catalog fields
 
