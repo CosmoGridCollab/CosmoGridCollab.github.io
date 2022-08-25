@@ -78,25 +78,8 @@ This data is described in [Kacprzak et al. 2022](www.arxiv.org/???).
 
 ### KiDS-1000 weak lensing analysis data
 
-The data used by Fluri et al. 2022 for the KiDS-1000 analysis with deep learning is stored in `CosmoGrid/KiDS1000_data_products`, and contains:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps.
-This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771).
-
-| file name     | file content  | comments      |
-| ------------- | ------------- | ------------- |
-| realization/CosmoML.log                         | | |
-| realization/Halofile_MinParts=100.npz'          | | |
-| realization/baryonification_params.py           | | |
-| realization/baryonified_shells.npz              | | |
-| realization/baryonified_shells.npz.info         | | |
-| realization/class_processed.hdf5                | | |
-| realization/concept.params                      | | |
-| realization/cosmology.par                       | | |
-| realization/noise_patches.npz                   | | |
-| realization/params.yml                          | | |
-| realization/projected_patches_baryon_euler.npz  | | |
-| realization/projected_patches_euler.npz         | | |
-| realization/shells_nside=512.npz'               | | |
-| realization/wl_weights.npz                      | | |
+The data used by Fluri et al. 2022 for the KiDS-1000 analysis with deep learning is stored in `CosmoGrid/KiDS1000_data_products`, and contains:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps that were used to train and evaluate the networks. 
+This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). It is stored in the [TFRecord](https://www.tensorflow.org/tutorials/load_data/tfrecord) format and requires decoding. Additionally, only the relevant patches are stored. For the grid, we provide 250 `tfrecord` files named `grid_data_{num:03d}.tfrecord`, where `num` corresponds to the file number. Each file contains the samples from 10 cosmological parameter combination and their labels used for the evaluations of the networks used in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). We provide these sample with or without applied baryonification. 
 
 
 ## Catalog fields
