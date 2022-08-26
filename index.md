@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CosmoGrid home"
+title: "Home"
 nav_order: 1
 ---
 
