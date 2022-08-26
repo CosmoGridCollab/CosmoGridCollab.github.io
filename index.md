@@ -32,7 +32,7 @@ The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of 
 
 Dataset download will become available upon the publication of the accompanying paper
 
-## What is included in CosmoGrid?
+## What is included in CosmoGridV1?
 
 The CosmoGridV1 dataset consists of a total of 20928 simulations divided into three main parts: 
 - **grid**: a set of 2500 cosmologies, each with 7 simulations from unique initial conditions (a total of 17500 N-body runs), 
