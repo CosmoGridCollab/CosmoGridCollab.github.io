@@ -58,7 +58,7 @@ The full grid spans 6 cosmological models covered with a Sobol sequence with 250
 
 <img src="/figures/cosmogrid_points.png"/>
 
-Pink points show the "tight" grid, while blue points show the "wide" grid.
+Pink points show the "narrow" grid, while blue points show the "wide" grid.
 Additional 200 independent simulations are created at the fiducial cosmology marked with a red star.
 
 ## Citing CosmoGridV1
