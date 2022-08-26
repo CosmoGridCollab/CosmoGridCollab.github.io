@@ -90,6 +90,6 @@ archivePrefix = {arXiv},
 
 The dataset is provided under the following licence:
 ```
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+Creative Commons  Attribution 4.0 International (CC BY 4.0) 
 ```
-which can be accessed [here](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+which can be accessed [here](https://creativecommons.org/licenses/by/4.0/legalcode)
