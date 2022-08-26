@@ -4,9 +4,9 @@ title: "CosmoGrid home"
 nav_order: 1
 ---
 
-# CosmoGrid public release
+# CosmoGridV1 public release
 
-CosmoGrid is a large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
+CosmoGridV1 is a large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
 It is designed for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
 It was created in [Fluri et al. 2022](https://www.arxiv.org/abs/2201.07771) at the Swiss Supercomputing Center (CSCS).
 The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
@@ -17,7 +17,7 @@ The example shell maps for different cosmological models are show in the video b
 
 ## Credits
 
-CosmoGrid was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
+CosmoGridV1 was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
 The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
 
 <p align="center">
@@ -34,7 +34,7 @@ Dataset download will become available upon the publication of the accompanying 
 
 ## What is included in CosmoGrid?
 
-The CosmoGrid dataset consists of a total of 20928 simulations divided into three main parts: 
+The CosmoGridV1 dataset consists of a total of 20928 simulations divided into three main parts: 
 - **grid**: a set of 2500 cosmologies, each with 7 simulations from unique initial conditions (a total of 17500 N-body runs), 
 - **fiducial**: simulations and the fiducial cosmology and its ±∆ derivatives, with 200 unique initial conditions (2800 runs),
 - **benchmark**: simulation benchmarks used for systematics testing of features chosen for parameter inference (28 runs).
@@ -61,7 +61,7 @@ The full grid spans 6 cosmological models covered with a Sobol sequence with 250
 Pink points show the "tight" grid, while blue points show the "wide" grid.
 Additional 200 independent simulations are created at the fiducial cosmology marked with a red star.
 
-## Citing CosmoGrid
+## Citing CosmoGridV1
 
 If you use this dataset for any publication, please cite the following papers:
 
