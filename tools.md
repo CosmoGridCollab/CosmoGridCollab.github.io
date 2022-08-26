@@ -6,9 +6,9 @@ toc: true
 nav_order: 6
 ---
 
-# Useful tools for working with CosmoGrid
+# Useful tools for working with CosmoGridV1
 
-This page contains non-exhaustive list of tools that can be useful at different stages of simulation-based inference with CosmoGrid.
+This page contains non-exhaustive list of tools that can be useful at different stages of simulation-based inference with CosmoGridV1.
 
 ## DeepSphere - convolutional neural network for Healpix maps
 
