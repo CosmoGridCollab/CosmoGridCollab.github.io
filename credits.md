@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Citing CosmoGrid"
+title: "Citing and licence"
 permalink: /credits/
 nav_order: 2
 ---
