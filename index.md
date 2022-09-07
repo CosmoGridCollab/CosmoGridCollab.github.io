@@ -67,7 +67,7 @@ If you use this dataset for any publication, please cite the following papers [K
 
 ```
 @ARTICLE{KacprzakFluri2022cosmogrid,
-  author = {{Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
+  author = { {Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
   title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
   year = 2022}
 
