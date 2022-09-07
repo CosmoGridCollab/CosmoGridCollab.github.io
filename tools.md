@@ -17,7 +17,7 @@ While CNNs were developed mainly for natural images, we created a CNN that work 
 
 ## UFalcon - creating probe maps from lightcone shells
 
-To create a new set of probe maps for a given set of redshift distribution n(z), one needs to calculate the corresponding probe integration kernels. The publicly available **UFalcon** (Ultra Fast Lightcone) code allows for just that. UFalcon is described in these papers: [Sgier et al. 2019](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/044) and [Sgier et al. 2020](https://arxiv.org/abs/2007.05735). The code is available from the ETH Zurich public Gitlab repository [cosmo-gitlab.phys.ethz.ch/cosmo/UFalcon](https://cosmo-gitlab.phys.ethz.ch/cosmo/UFalcon). 
+To create a new set of probe maps for a given set of redshift distribution n(z), one needs to calculate the corresponding probe integration kernels. The publicly available **UFalcon** (Ultra Fast Lightcone) code allows for just that. UFalcon is described in these papers: [Sgier et al. 2019](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/044) and [Sgier et al. 2020](https://arxiv.org/abs/2007.05735). The code is available from the ETH Zurich public Gitlab repository [cosmo-gitlab.phys.ethz.ch/cosmo/UFalcon](https://cosmo-gitlab.phys.ethz.ch/cosmo/UFalcon). More information about UFalcon can be found on the [UFalcon Homepage](https://cosmology.ethz.ch/research/software-lab/UFalcon.html).
 
 ## PyCosmo - cosmological calculator and Boltzman solver
 
