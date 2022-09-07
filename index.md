@@ -63,24 +63,27 @@ Additional 200 independent simulations are created at the fiducial cosmology mar
 
 ## Citing CosmoGridV1
 
-If you use this dataset for any publication, please cite the following papers:
+If you use this dataset for any publication, please cite the following papers [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/???) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
 
 ```
-@ARTICLE{Fluri2022kids1000,
-       author = { {Fluri}, Janis and {Kacprzak}, Tomasz and {Lucchi}, Aurelien and {Schneider}, Aurel and {Refregier}, Alexandre and {Hofmann}, Thomas},
-        title = "{Full w CDM analysis of KiDS-1000 weak lensing maps using deep learning}",
-      journal = {Physical Review D},
-         year = 2022,
-        month = apr,
-       volume = {105},
-       number = {8},
-          eid = {083518},
-        pages = {083518},
-          doi = {10.1103/PhysRevD.105.083518},
-archivePrefix = {arXiv},
-       eprint = {2201.07771},
- primaryClass = {astro-ph.CO},
-}
+@ARTICLE{KacprzakFluri2022cosmogrid,
+  author = {{Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
+  title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
+  year = 2022}
+
+@article{PhysRevD.105.083518,
+  title = {Full $w\mathrm{CDM}$ analysis of KiDS-1000 weak lensing maps using deep learning},
+  author = {Fluri, Janis and Kacprzak, Tomasz and Lucchi, Aurelien and Schneider, Aurel and Refregier, Alexandre and Hofmann, Thomas},
+  journal = {Phys. Rev. D},
+  volume = {105},
+  issue = {8},
+  pages = {083518},
+  numpages = {22},
+  year = {2022},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.105.083518},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.105.083518}}
 ```
 
 
