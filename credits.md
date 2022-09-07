@@ -37,11 +37,11 @@ CosmoGridV1 was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexan
 The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
 
 <p align="center">
-       <img src="/figures/CSCS_logo.png" width="150" />
-       &nbsp; &nbsp; &nbsp; &nbsp;
        <img src="/figures/ETH_Zürich_Logo_black.svg" width="150" />
        &nbsp; &nbsp; &nbsp; &nbsp;
        <img src="/figures/university-of-zurich-logo.png" width="150" />
+       &nbsp; &nbsp; &nbsp; &nbsp;
+       <img src="/figures/CSCS_logo.png" width="150" />
 </p>
 
 
