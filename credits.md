@@ -13,7 +13,14 @@ Before using the CosmoGridV1 data, please read this page carefully.
 
 If you use this dataset for any publication, please cite the following papers: [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/???) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
 
+
 ```
+@ARTICLE{KacprzakFluri2022cosmogrid,
+       author = { {Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
+        title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
+         year = 2022,
+}
+
 @ARTICLE{Fluri2022kids1000,
        author = { {Fluri}, Janis and {Kacprzak}, Tomasz and {Lucchi}, Aurelien and {Schneider}, Aurel and {Refregier}, Alexandre and {Hofmann}, Thomas},
         title = "{Full w CDM analysis of KiDS-1000 weak lensing maps using deep learning}",
