@@ -16,13 +16,13 @@ If you use this dataset for any publication, please cite the following papers: [
 
 ```
 @ARTICLE{KacprzakFluri2022cosmogrid,
-  author = {{Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
+  author = { {Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
   title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
   year = 2022}
 
 @article{PhysRevD.105.083518,
   title = {Full $w\mathrm{CDM}$ analysis of KiDS-1000 weak lensing maps using deep learning},
-  author = {Fluri, Janis and Kacprzak, Tomasz and Lucchi, Aurelien and Schneider, Aurel and Refregier, Alexandre and Hofmann, Thomas},
+  author = { Fluri, Janis and Kacprzak, Tomasz and Lucchi, Aurelien and Schneider, Aurel and Refregier, Alexandre and Hofmann, Thomas},
   journal = {Phys. Rev. D},
   volume = {105},
   issue = {8},
