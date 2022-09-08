@@ -24,3 +24,8 @@ While CNNs were developed mainly for natural images, we created a CNN that work 
 
 Cosmological background parameters, distances, and perturbations are computed analytically. The package **PyCosmo** uses a fast Boltzman solver to achieve this, including new cosmological models. It is available at [cosmo-docs.phys.ethz.ch/PyCosmo](https://cosmo-docs.phys.ethz.ch/PyCosmo). A live cosmological calculator in Jupyter notebooks is avalilable at [PyCosmoHub](https://pycosmohub.com).
 The public release is described in this paper [Tartsitano et al. 2020](https://arxiv.org/abs/2005.00543).
+
+
+## PkdGrav3 - fast N-body simulations
+
+The CosmoGridV1 simulations were run using the *PkdGrav3* code developed at the University of Zurich. PkdGrav3 is one of the fastest N-body simulation codes available, efficiently capitalizing on the GPU acceleration. It is used to create large simulations [Potter et al. 2016](https://arxiv.org/abs/1609.08621). The code is available at the [PkdGrav3 repository](https://bitbucket.org/dpotter/pkdgrav3/src/master/).
