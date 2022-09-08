@@ -86,7 +86,7 @@ If you use this dataset for any publication, please cite the following papers [K
   url = {https://link.aps.org/doi/10.1103/PhysRevD.105.083518}}
 ```
 
-## Other software used in this project
+## Software used in this project
 
 This project used the [UFalcon](https://cosmology.ethz.ch/research/software-lab/UFalcon.html) lightcone projection method by [Sgier et al. 2019](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/044) and [Sgier et al. 2020](https://arxiv.org/abs/2007.05735).
 CosmoGridV1 was validated on the power spectrum level against the theoretical prediction with [PyCosmo](https://cosmology.ethz.ch/research/software-lab/PyCosmo.html), which was desrcibed in [Tartsitano et al. 2020](https://arxiv.org/abs/2005.00543). The interactive PyCosmo cosmological calculator is available at the [PyCosmoHub](https://pycosmohub.com). For more on these codes see the [Useful tools](/tools.md) page.
