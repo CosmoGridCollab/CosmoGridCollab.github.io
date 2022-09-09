@@ -29,7 +29,7 @@ Select the directories you'd like to transfer.
 
 <img src="/figures/globus5.png"/>
 
-## Step 4 - launch a transfer job
+## Step 4 - launch the transfer job
 
 Search for a destination endpoint at your institution and start the transfer. You may want to specify transfer parameters under "Transfer and Timer Options".
 
