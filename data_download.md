@@ -10,7 +10,7 @@ nav_order: 4
 The data is available via [Globus](https://www.globus.org) with CILogin.
 See this [manual page](https://docs.globus.org/how-to/get-started/) to learn how to get started with Globus.
 
-## Check availability in supercomputing centers
+## Check availability at your HPC center
 
 Before transferring CosmoGrid, it may be worth to check if it has been already transfered to your HPC facility in the past.
 The copy so far exists at NERSC. Please contact us to obtain access.
