@@ -10,6 +10,11 @@ nav_order: 4
 The data is available via [Globus](https://www.globus.org) with CILogin.
 See this [manual page](https://docs.globus.org/how-to/get-started/) to learn how to get started with Globus.
 
+## Check availability in supercomputing centers
+
+Before transferring CosmoGrid, it may be worth to check if it has been already transfered to your HPC facility in the past.
+The copy so far exists at NERSC. Please contact us to obtain access.
+
 ## Step 1 - log into Globus
 
 You can use your academic login for institutions available in the CILogin, or with other ID providers. Here I use "ETH Zurich" as it is my organization. 
