@@ -12,7 +12,7 @@ See this [manual page](https://docs.globus.org/how-to/get-started/) to learn how
 
 ## Step 1 - log into Globus
 
-You can use your academic login for institutions available in the CILogin. Here I use "ETH Zurich" as it is my organization.
+You can use your academic login for institutions available in the CILogin, or with other ID providers. Here I use "ETH Zurich" as it is my organization. 
 
 <img src="/figures/globus3.png"/>
 
