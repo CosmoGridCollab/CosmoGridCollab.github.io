@@ -60,36 +60,7 @@ Additional 200 independent simulations are created at the fiducial cosmology mar
 
 ## Citing CosmoGridV1
 
-If you use this dataset for any publication, please cite the following papers [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/2209.04662) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
-
-```
-@ARTICLE{2209.04662,
-  author = { {Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
-  title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
-  journal = {arXiv e-prints},
-  year = 2022,
-  month = sep,
-  eid = {arXiv:2209.04662},
-  pages = {arXiv:2209.04662},
-  archivePrefix = {arXiv},
-  eprint = {2209.04662},
-  primaryClass = {astro-ph.CO},
-  year = 2022}
-
-@article{PhysRevD.105.083518,
-  title = {Full $w\mathrm{CDM}$ analysis of KiDS-1000 weak lensing maps using deep learning},
-  author = {Fluri, Janis and Kacprzak, Tomasz and Lucchi, Aurelien and Schneider, Aurel and Refregier, Alexandre and Hofmann, Thomas},
-  journal = {Phys. Rev. D},
-  volume = {105},
-  issue = {8},
-  pages = {083518},
-  numpages = {22},
-  year = {2022},
-  month = {Apr},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevD.105.083518},
-  url = {https://link.aps.org/doi/10.1103/PhysRevD.105.083518}}
-```
+If you use this dataset for any publication, please cite the following papers [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/2209.04662) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771). See page [Citing and licence](/credits.md) for details.
 
 ## Software used in this project
 
