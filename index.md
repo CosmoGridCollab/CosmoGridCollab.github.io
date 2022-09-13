@@ -39,7 +39,7 @@ The CosmoGridV1 dataset consists of a total of 20928 simulations divided into th
 The data is hosted by ETH Zurich and is available via the Globus transfer. For each simulation, we store:
 
 - raw simulation lightcone particle count maps stored at Healpix nside=2048 up to z<3.5 (69 shells per simulation),
-- halo catalog snapshots created using the friends-of-friends halo finder, with halo mass of M = 10^12 M⊙, at every time step,
+- halo catalog snapshots created using the friends-of-friends halo finder, with halo mass of M ~ 10^13 M⊙, at every time step,
 - projected full sky weak lensing, galaxy density, and intrinsic alignments maps for a Stage-III forecast, including baryonification, at the nside=512,
 - projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022.
 
