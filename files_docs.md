@@ -20,7 +20,7 @@ For each simulation, we store:
 - raw simulation lightcone particle count maps stored at Healpix nside=2048 up to z<3.5 (69 shells per simulation),
 - halo catalog snapshots created using the friends-of-friends halo finder, with halo mass of M = 10^12 M⊙, at every time step,
 - projected full sky weak lensing, galaxy density, and intrinsic alignments maps for a Stage-III forecast, including baryonification, at the nside=512,
-- projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, from Fluri et al. 2022.
+- projected KiDS-1000 lensing and intrinsic alignment maps with grid extended with baryonic feedback parameters, in the TFRecords format, from Fluri et al. 2022.
 
 
 ## Simulation files structure
@@ -31,7 +31,7 @@ The CosmoGrid directory tree follows this structure:
 
 where:
 
-- `dataset_type` are the availabe datasets, and currently contain `raw`, `stage3_forecast` or `KiDS1000_data_products`. The `raw` dataset contains the raw data used to create other sets.
+- `dataset_type` are the availabe datasets, and currently contain `raw`, `stage3_forecast`. The `raw` dataset contains the raw data used to create other sets.
 
 - `simulation_set`:  there are three simulation sets `grid`, `fiducial` and `benchmarks`
 
@@ -73,7 +73,7 @@ The colums in these datasets are as follows, with `parameters` containing only a
 
 #### Shell information
 
-The dataset `shell_info` contains information about shell boundaries for each simulation. Inside this dataset one should follow the CosmoGridV1 file structure, for example `shell_info/CosmoGrid/raw/grid/cosmo_203124`. These entries contain tables with the following fields:
+The dataset `shell_info` contains information about shell boundaries for each simulation. Inside this dataset one should follow the CosmoGridV1 file structure, for example `shell_info/CosmoGrid/raw/grid/cosmo_203124`. These dataset names contain the `raw` key, but it can be replaced by the relevant other set. These entries contain tables with the following fields:
 
 | column                                                | data type | content       |
 | -------------                                         | ----------| ------------- |
