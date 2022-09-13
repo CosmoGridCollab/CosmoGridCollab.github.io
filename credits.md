@@ -11,7 +11,7 @@ Before using the CosmoGridV1 data, please read this page carefully.
 
 ## Citing CosmoGridV1
 
-If you use this dataset for any publication, please cite the following papers: [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/???) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
+If you use this dataset for any publication, please cite the following papers: [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/2209.04662) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
 
 
 ```
