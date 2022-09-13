@@ -39,6 +39,31 @@ where:
 
 - `realization`: each independent or quasi-independent realization for the given cosmology. This can be from a single, replicated N-body run, or using the shell permutation scheme
 
+
+## Simulation metadata
+
+File `CosmoGridV1_metainfo.h5` contains metadata useful for working with the simulaitons: cosmological parameters, random seeds, file paths, etc.
+Dataset `simulations` contains a list of all unique simulation runs, divided by `simulation_set`.
+
+| column                                                | data type | content       |
+| -------------                                         | ----------| ------------- |
+| As, H0, O_cdm, O_nu, Ob, Ol, Om, m_nu, ns, w0, wa, s8 |  f8       | cosmological parameters                                                                            |        
+| bary_Mc, bary_nu                                      |  f8       | baryonification parameters                                                                         |      
+| pkd_seed                                              |  f8       | seed for initial conditions                                                                        |       
+| sobol_seed                                            |  i8       | sobol index (for the grid)                                                                         |      
+| seed_index                                            |  i4       | index of the initial conditions seed                                                               |                
+| delta                                                 |  S128     | type of the delta run (for the fiducial)                                                           |                    
+| sobol_index                                           |  i4       | index of the sobol sequence (for the grid)                                                         |                      
+| benchmark_type                                        |  S128     | benchmark type (for benchmarks, [particle_count, box_size, fiducial_bench, redshift_resolution])   |                                                                            
+| id_sim                                                |  i4       | index of the unique simulation                                                                     |          
+| id_param                                              |  i4       | index of the unique parameter set                                                                  |              
+| path_sim                                              |  S128     | path to the simulation directory in the CosmoGrid dirs structure                                   |                                            
+| path_par                                              |  S128     | path to the parameters directory in the CosmoGrid dirs structure                                   |                                            
+| box_size_Mpc_over_h                                   |  f8       | box size of the simulation                                                                         |      
+| n_particles                                           |  i8       | number of particles of the simulation                                                              |                 
+| n_shells                                              |  i4       | number of shells generated                                                                         |      
+| n_steps                                               |  i4       | number of PkdGrav3 steps                                                                           |    
+
 ## Simulation datasets
 
 Here we describe the available simulations datasets. The main one is the `raw` dataset. It was created during the Fluri et al. 2022 (F22) project for the KiDS-1000 analysis, but can be used for other new projects.
