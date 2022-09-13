@@ -9,7 +9,7 @@ nav_order: 1
 CosmoGridV1 is a large lightcone simulation set for map-level, simulation-based cosmological inference with probes of large scale structure.
 It is designed for practical parameter measurement with the Stage-III survey data, for example with KiDS, DES, and HSC.
 It was created in [Fluri et al. 2022](https://www.arxiv.org/abs/2201.07771) at the Swiss Supercomputing Center (CSCS).
-The paper describing the dataset: [Kacprzak et al. 2022](arxiv.org/).
+The paper describing the dataset: [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/2209.04662).
 
 The example shell maps for different cosmological models are show in the video below. It shows the evolution of structures throughout cosmic history, from high to low redshift. Best viewed in fullscreen UHD.
 
@@ -63,12 +63,20 @@ Additional 200 independent simulations are created at the fiducial cosmology mar
 
 ## Citing CosmoGridV1
 
-If you use this dataset for any publication, please cite the following papers [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/???) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
+If you use this dataset for any publication, please cite the following papers [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/2209.04662) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
 
 ```
 @ARTICLE{KacprzakFluri2022cosmogrid,
   author = { {Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
   title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
+  journal = {arXiv e-prints},
+  year = 2022,
+  month = sep,
+  eid = {arXiv:2209.04662},
+  pages = {arXiv:2209.04662},
+  archivePrefix = {arXiv},
+  eprint = {2209.04662},
+  primaryClass = {astro-ph.CO},
   year = 2022}
 
 @article{PhysRevD.105.083518,
