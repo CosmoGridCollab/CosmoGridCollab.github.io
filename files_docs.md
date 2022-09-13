@@ -42,8 +42,14 @@ where:
 
 ## Simulation metadata
 
-File `CosmoGridV1_metainfo.h5` contains metadata useful for working with the simulaitons: cosmological parameters, random seeds, file paths, etc.
-Dataset `simulations` contains a list of all unique simulation runs, divided by `simulation_set`.
+File `CosmoGridV1_metainfo.h5` contains metadata useful for working with the simulaitons: cosmological parameters, random seeds, file paths, boundaries of shells, etc.
+
+
+#### Simulations and input parameters
+
+Dataset `simulations` contains a list of all unique simulation runs, divided by `simulation_set`. 
+Dataset `parameters` contains a list of all unique cosmology input parameters. 
+The colums in these datasets are as follows, with `parameters` containing only a relevant sub-set of them:
 
 | column                                                | data type | content       |
 | -------------                                         | ----------| ------------- |
@@ -54,7 +60,7 @@ Dataset `simulations` contains a list of all unique simulation runs, divided by 
 | seed_index                                            |  i4       | index of the initial conditions seed                                                               |                
 | delta                                                 |  S128     | type of the delta run (for the fiducial)                                                           |                    
 | sobol_index                                           |  i4       | index of the sobol sequence (for the grid)                                                         |                      
-| benchmark_type                                        |  S128     | benchmark type (for benchmarks, [particle_count, box_size, fiducial_bench, redshift_resolution])   |                                                                            
+| benchmark_type                                        |  S128     | benchmark type (for benchmarks: particle_count, box_size, fiducial_bench, redshift_resolution)   |                                                                            
 | id_sim                                                |  i4       | index of the unique simulation                                                                     |          
 | id_param                                              |  i4       | index of the unique parameter set                                                                  |              
 | path_sim                                              |  S128     | path to the simulation directory in the CosmoGrid dirs structure                                   |                                            
@@ -63,6 +69,21 @@ Dataset `simulations` contains a list of all unique simulation runs, divided by 
 | n_particles                                           |  i8       | number of particles of the simulation                                                              |                 
 | n_shells                                              |  i4       | number of shells generated                                                                         |      
 | n_steps                                               |  i4       | number of PkdGrav3 steps                                                                           |    
+
+
+#### Shell information
+
+The dataset `shell_info` contains information about shell boundaries for each simulation. Inside this dataset one should follow the CosmoGridV1 file structure, for example `shell_info/CosmoGrid/raw/grid/cosmo_203124`. These entries contain tables with the following fields:
+
+| column                                                | data type | content       |
+| -------------                                         | ----------| ------------- |
+| shell_id    |   i4  |  index of the shell, lowest redshift first   |
+| lower_z     |   f4  |  redshift of the lower edge                  |
+| upper_z     |   f4  |  redshift of the upper edge                  |
+| lower_com   |   f4  |  comoving distance to the lower edge         |
+| upper_com   |   f4  |  comoving distance to the upper edge         |
+| shell_com   |   f4  |  comoving distance to the center             |
+
 
 ## Simulation datasets
 
