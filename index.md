@@ -66,7 +66,7 @@ Additional 200 independent simulations are created at the fiducial cosmology mar
 If you use this dataset for any publication, please cite the following papers [Kacprzak and Fluri et al. 2022](https://arxiv.org/abs/2209.04662) and [Fluri et al. 2022](https://arxiv.org/abs/2201.07771):
 
 ```
-@ARTICLE{KacprzakFluri2022cosmogrid,
+@ARTICLE{2209.04662,
   author = { {Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
   title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
   journal = {arXiv e-prints},
