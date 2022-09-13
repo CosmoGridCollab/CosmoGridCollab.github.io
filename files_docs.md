@@ -73,17 +73,7 @@ The colums in these datasets are as follows, with `parameters` containing only a
 
 #### Shell information
 
-The dataset `shell_info` contains information about shell boundaries for each simulation. Inside this dataset one should follow the CosmoGridV1 file structure, for example `shell_info/CosmoGrid/raw/grid/cosmo_203124`. These dataset names contain the `raw` key, but it can be replaced by the relevant other set. These entries contain tables with the following fields:
-
-| column                                                | data type | content       |
-| -------------                                         | ----------| ------------- |
-| shell_id    |   i4  |  index of the shell, lowest redshift first   |
-| lower_z     |   f4  |  redshift of the lower edge                  |
-| upper_z     |   f4  |  redshift of the upper edge                  |
-| lower_com   |   f4  |  comoving distance to the lower edge         |
-| upper_com   |   f4  |  comoving distance to the upper edge         |
-| shell_com   |   f4  |  comoving distance to the center             |
-
+The dataset `shell_info` contains information about shell boundaries for each simulation. Inside this dataset one should follow the CosmoGridV1 file structure, for example `shell_info/CosmoGrid/raw/grid/cosmo_203124`. These dataset names contain the `raw` key, but it can be replaced by the relevant other set. This table contains the `shell_info` data in an easy-to-access form, as described in Sectin *Shell information* below.
 
 ## Simulation datasets
 
