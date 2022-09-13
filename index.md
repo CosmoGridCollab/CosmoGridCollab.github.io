@@ -28,9 +28,6 @@ The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of 
        <img src="/figures/CSCS_logo.png" width="150" />
 </p>
 
-## This website is under construction
-
-Dataset download will become available upon the publication of the accompanying paper
 
 ## What is included in CosmoGridV1?
 
@@ -49,8 +46,8 @@ The data is hosted by ETH Zurich and is available via the Globus transfer. For e
 Additional features include:
 - shell baryonification with Baryon Correction Model by Scheider et al. 2019,
 - NLA intrinsic alignments can be added in post-processing,
-- linear and non-linear galaxy biasing models based on the matter density constrast maps can also be added in post-processing.
-- ability to create many quasi random projected maps at each grid point using shell permutation scheme
+- linear and non-linear galaxy biasing models based on the matter density constrast maps can also be added in post-processing,
+- ability to create many quasi random projected maps at each grid point using shell permutation scheme.
 
 ## Full grid points
 
