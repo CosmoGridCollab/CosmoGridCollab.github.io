@@ -27,7 +27,7 @@ List of papers (in prep, submitted, or published) that use CosmoGrid.
 
 Tomasz Kacprzak, Janis Fluri, Aurel Schneider, Alexandre Refregier, and Joachim Stadel
 
-[https://arxiv.org/abs/???](https://arxiv.org/abs/???)
+[https://arxiv.org/abs/2209.04662](arxiv.org/abs/2209.04662)
 
 ![](/figures/kacprzak2022.png) 
 
@@ -39,7 +39,7 @@ Tomasz Kacprzak, Janis Fluri, Aurel Schneider, Alexandre Refregier, and Joachim 
 
 Dominik Zürcher, Janis Fluri, Virginia Ajani, Silvan Fischbacher, Alexandre Refregier, Tomasz Kacprzak
 
-[https://arxiv.org/abs/2206.01450](https://arxiv.org/abs/2206.01450)
+[https://arxiv.org/abs/2206.01450](arxiv.org/abs/2206.01450)
 
 ![](/figures/zuercher2022.png) 
 
@@ -51,7 +51,7 @@ Dominik Zürcher, Janis Fluri, Virginia Ajani, Silvan Fischbacher, Alexandre Ref
 
 Janis Fluri, Tomasz Kacprzak, Aurelien Lucchi, Aurel Schneider, Alexandre Refregier, and Thomas Hofmann
 
-[arxiv.org/abs/2201.07771](https://arxiv.org/abs/2201.07771)
+[arxiv.org/abs/2201.07771](arxiv.org/abs/2201.07771)
 
 ![](/figures/fluri2022.png)
 
@@ -64,7 +64,7 @@ Janis Fluri, Tomasz Kacprzak, Aurelien Lucchi, Aurel Schneider, Alexandre Refreg
 
 Dominik Zürcher, Janis Fluri, Raphael Sgier, Tomasz Kacprzak, Marco Gatti, Cyrille Doux, Lorne Whiteway, Alexandre Refregier, and the DES Collaboration
 
-[arxiv.org/abs/2110.10135](https://arxiv.org/abs/2110.10135)
+[arxiv.org/abs/2110.10135](arxiv.org/abs/2110.10135)
 
 ![](/figures/zuercher2021.png)
 
@@ -76,7 +76,7 @@ Dominik Zürcher, Janis Fluri, Raphael Sgier, Tomasz Kacprzak, Marco Gatti, Cyri
 
 Dominik Zürcher, Janis Fluri, Raphael Sgier, Tomasz Kacprzak, Alexandre Refregier
 
-[arxiv.org/abs/2006.12506](https://arxiv.org/abs/2006.12506)
+[arxiv.org/abs/2006.12506](arxiv.org/abs/2006.12506)
 
 ![](/figures/zuercher2020.png)
 
