@@ -15,9 +15,17 @@ If you use this dataset for any publication, please cite the following papers: [
 
 
 ```
-@ARTICLE{KacprzakFluri2022cosmogrid,
+@ARTICLE{2209.04662,
   author = { {Kacprzak}, Tomasz and {Fluri}, Janis and {Schneider}, Aurel and {Refregier}, Alexandre and {Stadel}, Joachim},
   title = "{CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference}",
+  journal = {arXiv e-prints},
+  year = 2022,
+  month = sep,
+  eid = {arXiv:2209.04662},
+  pages = {arXiv:2209.04662},
+  archivePrefix = {arXiv},
+  eprint = {2209.04662},
+  primaryClass = {astro-ph.CO},
   year = 2022}
 
 @article{PhysRevD.105.083518,
