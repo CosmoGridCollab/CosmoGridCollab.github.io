@@ -15,6 +15,11 @@ The example shell maps for different cosmological models are show in the video b
 
 {% include youtube.html %} 
 
+## News
+
+Check the [News](/news.md) page for information about data availability (including outages), new data releases, code packages, papers and events.
+
+
 ## Credits
 
 CosmoGridV1 was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
