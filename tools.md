@@ -3,7 +3,7 @@ layout: page
 title: "Useful tools"
 permalink: /tools/
 toc: true
-nav_order: 6
+nav_order: 7
 ---
 
 # Useful tools for working with CosmoGridV1
