@@ -2,7 +2,7 @@
 layout: page
 title: "Data download"
 permalink: /data_download/
-nav_order: 4
+nav_order: 5
 ---
 
 # Data download
