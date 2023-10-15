@@ -2,7 +2,7 @@
 layout: page
 title: "Citing and licence"
 permalink: /credits/
-nav_order: 2
+nav_order: 3
 ---
 
 # Citing, credits, and licence
