@@ -24,6 +24,7 @@ Check the [News](/news.md) page for information about data availability (includi
 
 CosmoGridV1 was created by Janis Fluri, Tomasz Kacprzak, Aurel Schneider, Alexandre Refregier, and Joachim Stadel at the ETH Zurich and the University of Zurich.
 The simulations were run at the Swiss Supercomputing Center (CSCS) as a part of the large production project "Measuring Dark Energy with Deep Learning".
+It is hosted at ETH Zurich by the IT Services Group of the Department of Physics.
 
 <p align="center">
        <img src="/figures/ETH_Zürich_Logo_black.svg" width="150" />
