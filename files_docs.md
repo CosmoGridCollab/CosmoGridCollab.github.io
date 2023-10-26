@@ -31,7 +31,7 @@ The CosmoGrid directory tree follows this structure:
 
 where:
 
-- `dataset_type` are the availabe datasets, and currently contain `raw`, `stage3_forecast`. The `raw` dataset contains the raw data used to create other sets.
+- `dataset_type` are the availabe datasets, and currently contain `raw`, `stage3_forecast`, `KiDS1000_data_products`. The `raw` dataset contains the raw data used to create other sets.
 
 - `simulation_set`:  there are three simulation sets `grid`, `fiducial` and `benchmarks`
 
@@ -116,7 +116,7 @@ This data is described in [Kacprzak et al. 2022](https://arxiv.org/abs/2209.0466
 
 ### KiDS-1000 weak lensing analysis data
 
-The data used by Fluri et al. 2022 for the KiDS-1000 analysis with deep learning is stored in `CosmoGrid/KiDS1000_data_products`, and contains:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps that were used to train and evaluate the networks. 
+The data used by Fluri et al. 2022 for the KiDS-1000 analysis with deep learning is stored in `CosmoGrid/processed/KiDS1000_data_products`, and contains:  KiDS-1000 lensing maps at nside=512, with and without baryonification, pre-processed noise maps that were used to train and evaluate the networks. 
 This data is described in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). It is stored in the [TFRecord](https://www.tensorflow.org/tutorials/load_data/tfrecord) format and requires decoding. Additionally, only the relevant patches are stored. For the grid, we provide 250 `tfrecord` files named `grid_data_{num:03d}.tfrecord`, where `num` corresponds to the file number. Each file contains the samples from 10 cosmological parameter combinations and their labels used for the evaluations of the networks used in [Fluri et al. 2022](www.arxiv.org/abs/2201.07771). We provide these sample with or without applied baryonification. The fiducial maps are split into signal only patches with or without applied baryonification and pure noise maps that were used for training or evaluation. Furthermore, a single sample of a fiducial file contains the maps of all delta simulations with the same seed to alleviate the calculations of the derivatives. To decode the files we provide the `read_TFR.py` script that implements the following functions:
 
 ```python
@@ -195,7 +195,7 @@ In this section we describe fields in various catalogs contained by the files ab
 ### Shell information
 
 
-Information about shells boundaries and centers. Those are different for every cosmology, but the same for all realiszations for the same cosmology. It can be found in `compressed_shells.npz` in the `shell_info` field.
+Information about shells boundaries and centers. Those are different for every cosmology, but the same for all realizations for the same cosmology. It can be found in `compressed_shells.npz` in the `shell_info` field.
 
 | field         | data type     | content       |
 | ------------- | ------------- | ------------- |
