@@ -23,6 +23,23 @@ List of papers (in prep, submitted, or published) that use CosmoGridV1.
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
 
+## Dimensionality Reduction Techniques for Statistical Inference in Cosmology
+
+We explore linear and non-linear dimensionality reduction techniques for statistical inference of parameters in cosmology. Given the importance of compressing the increasingly complex data vectors used in cosmology, we address questions that impact the constraining power achieved, such as: Are currently used methods effectively lossless? Under what conditions do nonlinear methods, typically based on neural nets, outperform linear methods? Through theoretical analysis and experiments with simulated weak lensing data vectors we compare three standard linear methods and neural network based methods. We propose two linear methods that outperform all others while using less computational resources: a variation of the MOPED algorithm we call e-MOPED and an adaptation of Canonical Correlation Analysis (CCA), which is a method new to cosmology but well known in statistics. Both e-MOPED and CCA utilize simulations spanning the full parameter space, and rely on the sensitivity of the data vector to the parameters of interest. The gains we obtain are significant compared to compression methods used in the literature: up to 30% in the Figure of Merit for $Ω_m$ and $S_8$ in a realistic simulation-based inference analysis that includes statistical and systematic errors. We also recommend two modifications that improve the performance of all methods: First, include components in the compressed data vector that may not target the key parameters but still enhance the constraints on $S_8$ due to their correlations. The gain is significant, above 20% in the Figure of Merit. Second, compress Gaussian and non-Gaussian statistics separately – we include two summary statistics of each type in our analysis.
+
+[arxiv.org/abs/2409.02102](https://arxiv.org/abs/2409.02102)
+
+
+
+
+
+## SBi3PCF: Simulation-based inference with the integrated 3PCF
+
+We present SBi3PCF, a simulation-based inference (SBI) framework for analysing a higher-order weak lensing statistic, the integrated 3-point correlation function (i3PCF). Our approach forward-models the cosmic shear field using the CosmoGridV1 suite of N-body simulations, including a comprehensive set of systematic effects such as intrinsic alignment, baryonic feedback, photometric redshift uncertainty, shear calibration bias, and shape noise. Using this, we have produced a set of DES Y3-like synthetic measurements for 2-point shear correlation functions (2PCFs) and i3PCFs ζ<sub>±</sub> across 6 cosmological and 11 systematic parameters. Having validated these measurements against theoretical predictions and thoroughly examined for potential systematic biases, we have found that the impact of source galaxy clustering and reduced shear on the i3PCF is negligible for Stage-III surveys. Furthermore, we have tested the Gaussianity assumption for the likelihood of our data vector and found that while the sampling distribution of the 2PCF can be well approximated by a Gaussian, the likelihood of the combined 2PCF + i3PCF data vector (including filter sizes of 90′ and larger) can deviate from this assumption. Our SBI pipeline employs masked autoregressive flows to perform neural likelihood estimation and is validated to give statistically accurate posterior estimates. On mock data, we find that including the i3PCF yields a substantial 63.8% median improvement in the figure of merit for $Ω_m$–$σ_8$–$w_0$. These findings are consistent with previous works on the i3PCF and demonstrate that our SBI framework can achieve the accuracy and realism needed to analyse the i3PCF in wide-area weak lensing surveys.
+
+[https://arxiv.org/abs/2510.13805](https://arxiv.org/abs/2510.13805)
+
+
 ## CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference
 
 Tomasz Kacprzak, Janis Fluri, Aurel Schneider, Alexandre Refregier, and Joachim Stadel
