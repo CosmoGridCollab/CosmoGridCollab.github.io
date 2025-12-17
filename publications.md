@@ -23,7 +23,16 @@ List of papers (in prep, submitted, or published) that use CosmoGridV1.
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
 
+Dark Energy Survey Year 3 results: Simulation-based wCDM inference from weak lensing and galaxy clustering maps with deep learning. I. Analysis design
+
+A. Thomsen, J. Bucko, T. Kacprzak, V. Ajani, J. Fluri, A. Refregier
+
+[arxiv.org/abs/2511.04681](https://arxiv.org/abs/2511.04681)
+
+
 ## Dimensionality Reduction Techniques for Statistical Inference in Cosmology
+
+Minsu Park, Marco Gatti, Bhuvnesh Jain
 
 [arxiv.org/abs/2409.02102](https://arxiv.org/abs/2409.02102)
 
@@ -38,6 +47,8 @@ List of papers (in prep, submitted, or published) that use CosmoGridV1.
 
 
 ## SBi3PCF: Simulation-based inference with the integrated 3PCF
+
+David Gebauer, Anik Halder, Stella Seitz, Dhayaa Anbajagane
 
 [https://arxiv.org/abs/2510.13805](https://arxiv.org/abs/2510.13805)
 
