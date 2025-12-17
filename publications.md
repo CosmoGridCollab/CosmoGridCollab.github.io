@@ -29,7 +29,7 @@ List of papers (in prep, submitted, or published) that use CosmoGridV1.
 
 [arxiv.org/abs/2409.02102](https://arxiv.org/abs/2409.02102)
 
-
+![](/figures/Park2025.png) 
 
 
 
