@@ -23,12 +23,15 @@ List of papers (in prep, submitted, or published) that use CosmoGridV1.
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
 
-Dark Energy Survey Year 3 results: Simulation-based wCDM inference from weak lensing and galaxy clustering maps with deep learning. I. Analysis design
+## Dark Energy Survey Year 3 results: Simulation-based wCDM inference from weak lensing and galaxy clustering maps with deep learning. I. Analysis design
 
-A. Thomsen, J. Bucko, T. Kacprzak, V. Ajani, J. Fluri, A. Refregier
+A. Thomsen, J. Bucko, T. Kacprzak, V. Ajani, J. Fluri, A. Refregier, DES Collaboration
 
 [arxiv.org/abs/2511.04681](https://arxiv.org/abs/2511.04681)
 
+![](/figures/Thomsen2025.png) 
+
+> Data-driven approaches using deep learning are emerging as powerful techniques to extract non-Gaussian information from cosmological large-scale structure. This work presents the first simulation-based inference (SBI) pipeline that combines weak lensing and galaxy clustering maps in a realistic Dark Energy Survey Year 3 (DES Y3) configuration and serves as preparation for a forthcoming analysis of the survey data. We develop a scalable forward model based on the CosmoGridV1 suite of N-body simulations to generate over one million self-consistent mock realizations of DES Y3 at the map level. Leveraging this large dataset, we train deep graph convolutional neural networks on the full survey footprint in spherical geometry to learn low-dimensional features that approximately maximize mutual information with target parameters. These learned compressions enable neural density estimation of the implicit likelihood via normalizing flows in a ten-dimensional parameter space spanning cosmological wCDM, intrinsic alignment, and linear galaxy bias parameters, while marginalizing over baryonic, photometric redshift, and shear bias nuisances. To ensure robustness, we extensively validate our inference pipeline using synthetic observations derived from both systematic contaminations in our forward model and independent Buzzard galaxy catalogs. Our forecasts yield significant improvements in cosmological parameter constraints, achieving 2−3× higher figures of merit in the Ωm−S8 plane relative to our implementation of baseline two-point statistics and effectively breaking parameter degeneracies through probe combination. These results demonstrate the potential of SBI analyses powered by deep learning for upcoming Stage-IV wide-field imaging surveys.
 
 ## Dimensionality Reduction Techniques for Statistical Inference in Cosmology
 
