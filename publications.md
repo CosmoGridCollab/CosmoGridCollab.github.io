@@ -39,6 +39,8 @@ We present SBi3PCF, a simulation-based inference (SBI) framework for analysing a
 
 [https://arxiv.org/abs/2510.13805](https://arxiv.org/abs/2510.13805)
 
+![](/figures/gebauer2025.png) 
+
 
 ## CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference
 
