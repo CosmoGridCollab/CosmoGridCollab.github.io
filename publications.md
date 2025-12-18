@@ -99,7 +99,15 @@ Weiqiu You, Helen Qu, Marco Gatti, Bhuvnesh Jain, Eric Wong
 > Self-attributing neural networks (SANNs) present a potential path towards interpretable models for high-dimensional problems, but often face significant trade-offs in performance. In this work, we formally prove a lower bound on errors of perfeature SANNs, whereas group-based SANNs can achieve zero error and thus high performance. Motivated by these insights, we propose Sum-of-Parts (SOP), a framework that transforms any differentiable model into a group-based SANN, where feature groups are learned end-to-end without group supervision. SOP achieves state-of-the-art performance for SANNs on vision and language tasks, and we validate that the groups are interpretable on a range of quantitative and semantic metrics. We further validate the utility of SOP explanations in model debugging and cosmological scientific discovery.
 
 
-https://arxiv.org/pdf/2310.16316
+
+## Cosmology from Galaxy Redshift Surveys with PointNet
+
+Sotiris Anagnostidis, Arne Thomsen, Tomasz Kacprzak, Tilman Tröster, Luca Biggio, Alexandre Refregier, Thomas Hofmann
+
+> In recent years, deep learning approaches have achieved state-of-the-art results in the analysis of point cloud data. In cosmology, galaxy redshift surveys resemble such a permutation invariant collection of positions in space. These surveys have so far mostly been analysed with two-point statistics, such as power spectra and correlation functions. The usage of these summary statistics is best justified on large scales, where the density field is linear and Gaussian. However, in light of the increased precision expected from upcoming surveys, the analysis of -- intrinsically non-Gaussian -- small angular separations represents an appealing avenue to better constrain cosmological parameters. In this work, we aim to improve upon two-point statistics by employing a \textit{PointNet}-like neural network to regress the values of the cosmological parameters directly from point cloud data. Our implementation of PointNets can analyse inputs of (104)−(105) galaxies at a time, which improves upon earlier work for this application by roughly two orders of magnitude. Additionally, we demonstrate the ability to analyse galaxy redshift survey data on the lightcone, as opposed to previously static simulation boxes at a given fixed redshift.
+
+[https://arxiv.org/abs/2211.12346](https://arxiv.org/abs/2211.12346)
+
 
 ## Hyper Suprime-Cam Year 3 Results: Cosmology from Cosmic Shear Power Spectra
 
