@@ -16,9 +16,16 @@ img {
 </style>
 
 
+
+
+
+
 # List of publications using CosmoGridV1
 {:.no_toc}
-Non-exhaustive list of papers (in prep, submitted, or published) that use CosmoGridV1.
+
+The full list of citations can be found at [https://scholar.google.com/scholar?cites=10911575635593470419](Google Scholar).
+
+List of highlighted papers that use CosmoGridV1
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
