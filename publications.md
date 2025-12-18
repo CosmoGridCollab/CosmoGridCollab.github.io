@@ -25,7 +25,7 @@ img {
 
 The full list of citations can be found at [Google Scholar](https://scholar.google.com/scholar?cites=10911575635593470419). The number of citations is 41 (Dec 2025).
 
-List of highlighted papers that use CosmoGridV1
+List of highlighted papers that use CosmoGridV1:
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
