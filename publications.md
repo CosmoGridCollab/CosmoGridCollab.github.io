@@ -18,10 +18,24 @@ img {
 
 # List of publications using CosmoGridV1
 {:.no_toc}
-List of papers (in prep, submitted, or published) that use CosmoGridV1.
+Non-exhaustive list of papers (in prep, submitted, or published) that use CosmoGridV1.
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
+
+## The Shear-to-Cosmology Paradigm I: Hybrid Field-Level and Simulation-Based Framework for Weak Lensing Surveys (CSST, 2025) – Ding et al., arXiv:2511.22851 (Nov 2025). 
+
+
+Jiacheng Ding, Chen Su, Ji Yao, Le Zhang, Huanyuan Shan
+
+[arxiv.org/abs/2511.22851](https://arxiv.org/abs/2511.22851)
+
+![](/figures/Ding2025.png) 
+
+
+Precise cosmological inference from next-generation weak lensing surveys requires extracting non-Gaussian information beyond standard two-point statistics. We present a hybrid machine-learning (ML) framework that integrates field-level inference (FLI) with simulation-based inference (SBI) to map observed shear fields directly to cosmological parameters, eliminating the need for convergence reconstruction. The FLI network extracts rich non-Gaussian information from the shear field to produce informative features, which are then used by SBI to model the resulting complex posteriors. To mitigate noise from intrinsic galaxy shapes, we develop a blind, training-free, PCA-based shear denoising method. Tests on CSST-like mock catalogs reveal significant performance gains. The shear-based inference achieves approximately twice the cosmological constraining power in Figure of Merit (FoM) compared to the conventional convergence-based approach. Moreover, the combination of PCA denoising and ML compression can deliver a 36.4% improvement in FoM over standard shear two-point statistics. This work establishes a scalable and robust pathway for cosmological inference, unlocking the full potential of Stage-IV weak-lensing surveys.
+
+
 
 ## Dark Energy Survey Year 3 results: Simulation-based wCDM inference from weak lensing and galaxy clustering maps with deep learning. I. Analysis design
 
