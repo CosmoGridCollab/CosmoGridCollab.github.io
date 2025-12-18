@@ -65,10 +65,41 @@ Minsu Park, Marco Gatti, Bhuvnesh Jain
 
 David Gebauer, Anik Halder, Stella Seitz, Dhayaa Anbajagane
 
-[https://arxiv.org/abs/2510.13805](https://arxiv.org/abs/2510.13805)
+[arxiv.org/abs/2510.13805](https://arxiv.org/abs/2510.13805)
 
 > We present SBi3PCF, a simulation-based inference (SBI) framework for analysing a higher-order weak lensing statistic, the integrated 3-point correlation function (i3PCF). Our approach forward-models the cosmic shear field using the CosmoGridV1 suite of N-body simulations, including a comprehensive set of systematic effects such as intrinsic alignment, baryonic feedback, photometric redshift uncertainty, shear calibration bias, and shape noise. Using this, we have produced a set of DES Y3-like synthetic measurements for 2-point shear correlation functions (2PCFs) and i3PCFs ζ<sub>±</sub> across 6 cosmological and 11 systematic parameters. Having validated these measurements against theoretical predictions and thoroughly examined for potential systematic biases, we have found that the impact of source galaxy clustering and reduced shear on the i3PCF is negligible for Stage-III surveys. Furthermore, we have tested the Gaussianity assumption for the likelihood of our data vector and found that while the sampling distribution of the 2PCF can be well approximated by a Gaussian, the likelihood of the combined 2PCF + i3PCF data vector (including filter sizes of 90′ and larger) can deviate from this assumption. Our SBI pipeline employs masked autoregressive flows to perform neural likelihood estimation and is validated to give statistically accurate posterior estimates. On mock data, we find that including the i3PCF yields a substantial 63.8% median improvement in the figure of merit for $Ω_m$–$σ_8$–$w_0$. These findings are consistent with previous works on the i3PCF and demonstrate that our SBI framework can achieve the accuracy and realism needed to analyse the i3PCF in wide-area weak lensing surveys.
 
+
+
+## Generative models of astrophysical fields with scattering transforms on the sphere
+
+Louise Mousset, Erwan Allys, Matthew A. Price, Jonathan Aumont, Jean-Marc Delouis, Ludovic Montier, Jason D. McEwen
+
+[arxiv.org/abs/2407.07007](https://arxiv.org/abs/2407.07007)
+
+> Scattering transforms are a new type of summary statistics recently developed for the study of highly non-Gaussian processes, which
+have been shown to be very promising for astrophysical studies. In particular, they allow one to build generative models of complex
+non-linear fields from a limited amount of data and have been used as the basis of new statistical component separation algorithms.
+In the context of upcoming cosmological surveys, such as LiteBIRD for the cosmic microwave background polarisation or the Vera
+C. Rubin Observatory and the Euclid space telescope for study of the large-scale structures of the Universe, extending these tools
+to spherical data is necessary. In this work, we developed scattering transforms on the sphere and focused on the construction of
+maximum-entropy generative models of several astrophysical fields. We constructed, from a single target field, generative models of
+homogeneous astrophysical and cosmological fields, whose samples were quantitatively compared to the target fields using common
+statistics (power spectrum, pixel probability density function, and Minkowski functionals). Our sampled fields agree well with the target
+fields, both statistically and visually. We conclude, therefore, that these generative models open up a wide range of new applications
+for future astrophysical and cosmological studies, particularly those for which very little simulated data is available.
+
+## Sum-of-Parts: Self-Attributing Neural Networks with End-to-End Learning of Feature Groups
+
+Weiqiu You, Helen Qu, Marco Gatti, Bhuvnesh Jain, Eric Wong
+
+[arxiv.org/pdf/2310.16316](https://arxiv.org/pdf/2310.16316)
+
+
+> Self-attributing neural networks (SANNs) present a potential path towards interpretable models for high-dimensional problems, but often face significant trade-offs in performance. In this work, we formally prove a lower bound on errors of perfeature SANNs, whereas group-based SANNs can achieve zero error and thus high performance. Motivated by these insights, we propose Sum-of-Parts (SOP), a framework that transforms any differentiable model into a group-based SANN, where feature groups are learned end-to-end without group supervision. SOP achieves state-of-the-art performance for SANNs on vision and language tasks, and we validate that the groups are interpretable on a range of quantitative and semantic metrics. We further validate the utility of SOP explanations in model debugging and cosmological scientific discovery.
+
+
+https://arxiv.org/pdf/2310.16316
 
 ## Hyper Suprime-Cam Year 3 Results: Cosmology from Cosmic Shear Power Spectra
 
