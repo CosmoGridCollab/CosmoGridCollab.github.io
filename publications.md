@@ -132,16 +132,6 @@ Xiangchong Li, Tianqing Zhang, Sunao Sugiyama, Roohi Dalal, Ryo Terasawa, Markus
 
 > We perform a blinded cosmology analysis with cosmic shear two-point correlation functions (2PCFs) measured from more than 25 million galaxies in the HSC three-year shear catalog… The survey covers 416 deg$^2$ in four tomographic redshift bins (0.3–1.5) with an effective galaxy density of 15 arcmin$^{-2}$. Using angular scales $7.1' < \theta < 56.6'$ for $\xi_+$ and $31.2' < \theta < 248'$ for $\xi_-$ (total S/N = 26.6), and wide flat priors on photometric-redshift biases, we find $\Omega_m=0.256^{+0.056}{-0.044}$ and $S_8\equiv \sigma_8(\Omega_m/0.3)^{0.5}=0.769^{+0.031}{-0.034}$ (68% C.I.) in $\Lambda$CDM. After unblinding, our $S_8$ is consistent with Fourier-space cosmic shear and $3\times2$pt analyses on the same HSC dataset. We carefully test for astrophysical and modeling systematics using synthetic data and find no >$0.5\sigma$ biases in $S_8$. Our analysis hints that the mean redshifts of the two highest tomographic bins were initially underestimated. We conduct numerous consistency tests, and find a $\sim2\sigma$ low-$S_8$ trend compared to Planck 2018.
 
-## CosmoGridV1: a simulated wCDM theory prediction for map-level cosmological inference
-
-Tomasz Kacprzak, Janis Fluri, Aurel Schneider, Alexandre Refregier, and Joachim Stadel
-
-[arxiv.org/abs/2209.04662](https://arxiv.org/abs/2209.04662)
-
-
-
-> We present CosmoGridV1: a large set of lightcone simulations for map-level cosmological inference with probes of large scale structure. It is designed for cosmological parameter measurement based on Stage-III photometric surveys with non-Gaussian statistics and machine learning. CosmoGridV1 spans the wCDM model by varying Ωm, σ8, w0, H0, ns, Ωb, and assumes three degenerate neutrinos with ∑mν = 0.06 eV. This space is covered by 2500 grid points on a Sobol sequence. At each grid point, we run 7 simulations with PkdGrav3 and store 69 particle maps at nside=2048 up to z=3.5, as well as halo catalog snapshots. The fiducial cosmology has 200 independent simulations, along with their stencil derivatives. An important part of CosmoGridV1 is the benchmark set of 28 simulations, which include larger boxes, higher particle counts, and higher redshift resolution of shells. They allow for testing if new types of analyses are sensitive to choices made in CosmoGridV1. We add baryon feedback effects on the map level, using shell-based baryon correction model. The shells are used to create maps of weak gravitational lensing, intrinsic alignment, and galaxy clustering, using the UFalcon code. The main part of CosmoGridV1 are the raw particle count shells that can be used to create full-sky maps for a given n(z). We also release projected maps for a Stage-III forecast, as well as maps used previously in KiDS-1000 deep learning constraints with CosmoGridV1. The data is available at www.cosmogrid.ai.
-
 
 
 ## Towards a full wCDM map-based analysis for weak lensing surveys
