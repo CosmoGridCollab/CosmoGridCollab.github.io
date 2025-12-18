@@ -23,7 +23,7 @@ Non-exhaustive list of papers (in prep, submitted, or published) that use CosmoG
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
 
-## The Shear-to-Cosmology Paradigm I: Hybrid Field-Level and Simulation-Based Framework for Weak Lensing Surveys (CSST, 2025) – Ding et al., arXiv:2511.22851 (Nov 2025). 
+## The Shear-to-Cosmology Paradigm I: Hybrid Field-Level and Simulation-Based Framework for Weak Lensing Surveys
 
 
 Jiacheng Ding, Chen Su, Ji Yao, Le Zhang, Huanyuan Shan
